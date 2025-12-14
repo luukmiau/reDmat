@@ -1,0 +1,594 @@
+/* ================================================= */
+/* 0. RESET BÁSICO Y VARIABLES */
+/* ================================================= */
+
+:root {
+    --primary-color: #9e0e1c; /* Rojo fuerte */
+    --secondary-color: #940412; /* Rojo ligeramente más oscuro (para hover) */
+    --text-color: #212529; /* Gris oscuro para el texto principal (Body) */
+    --background-light: #f8f9fa; /* Blanco roto (Body) */
+    --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Variables de color de la Calculadora (para lograr el look oscuro/rojo) */
+    --color-acento-principal: var(--primary-color);
+    --color-acento-secundario: var(--secondary-color);
+    --color-texto-claro: #f8f9fa; /* Blanco roto (para texto sobre oscuro) */
+    
+    /* Colores Específicos del Contenedor de la Calculadora */
+    --color-fondo-calculadora: #1e1e1e; /* Fondo oscuro principal de la calculadora */
+    --color-fondo-input: #2d2d2d; /* Fondo de inputs y cajas de resultado */
+    --color-borde-resaltado: var(--primary-color); /* Borde rojo */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-light);
+    color: var(--text-color);
+    padding-top: 80px; 
+}
+
+/* ================================================= */
+/* 1. ENCABEZADO (HEADER) y HERO SECTIONS */
+/* ================================================= */
+
+.main-header {
+    background: #212529; 
+    color: white;
+    padding: 15px 5%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: var(--shadow-light);
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.cart-link a {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.hero-banner {
+    background: linear-gradient(rgba(238, 40, 47, 0.6), rgb(200, 21, 21)), url('banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+}
+
+.hero-banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+
+.hero-slider {
+    position: relative;
+    height: 320px;
+    background: linear-gradient(135deg, var(--primary-color), #1e2a38);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-slider2 {
+    position: relative;
+    height: 320px;
+    background: linear-gradient(135deg, var(--primary-color), #1e2a38);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 20px;
+    max-height: 230px;
+}
+
+.hero-slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    max-width: 700px;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+.hero-slide h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.hero-slide p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.hero-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2.5em;
+    cursor: pointer;
+    padding: 0 15px;
+    opacity: 0.7;
+}
+
+.hero-control:hover {
+    opacity: 1;
+}
+
+.hero-control.prev {
+    left: 10px;
+}
+
+.hero-control.next {
+    right: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color);
+}
+
+/* ================================================= */
+/* Formato (Títulos y Centrado) */
+/* ================================================= */
+.parrafo-centrado {
+    text-align: center;
+}
+.section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    text-align: center;
+}
+.section-subtitle- { 
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    text-align: center; 
+}
+
+/* ================================================= */
+/* 5. PANELES DESPLEGABLES (ACORDEÓN) */
+/* ================================================= */
+
+.acordeon-container {
+    padding: 20px 5%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.section-VerMas {
+    text-align: center;
+    background-color: var(--primary-color);
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-left: 300px; 
+    margin-right: 300px;
+    border-radius: 8px;
+    color: #f1f1f1;
+}
+
+
+.section-VerMas a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.section-VerMas a:hover {
+    color: #ffffff;
+}
+
+
+
+.acordeon-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: var(--shadow-light);
+}
+
+.acordeon-toggle {
+    display: none; 
+}
+
+.acordeon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header:hover {
+    background-color: #f1f1f1;
+}
+
+.acordeon-icon {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    transition: transform 0.3s;
+}
+
+/* Ocultar el contenido por defecto */
+.acordeon-content {
+    max-height: 0;
+    padding: 0 20px;
+    background-color: white;
+    color: var(--text-color);
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+
+/* Separar y mover a la derecha el ul */
+.acordeon-content ul {
+    margin-bottom: 15px; 
+    margin-top: 15px; 
+    margin-left: 25px; 
+}
+
+/* Separación general de párrafos */
+.acordeon-content p {
+    margin-bottom: 15px;
+}
+
+/* Estado Desplegado (al marcar el checkbox) */
+.acordeon-toggle:checked + .acordeon-header .acordeon-icon {
+    transform: rotate(45deg); 
+    color: var(--secondary-color);
+}
+
+.acordeon-toggle:checked ~ .acordeon-content {
+    max-height: 500px; 
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+
+/* ================================================= */
+/* 6. PIE DE PÁGINA (FOOTER) Y ELECTIVOS */
+/* ================================================= */
+
+.main-footer {
+    background: #212529; 
+    color: white;
+    padding: 30px 5%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.electivos-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 5%;
+}
+
+.electivos-listas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.electivos-semestre {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.electivos-titulo {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.electivos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.electivo-item {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    row-gap: 4px;
+    margin-bottom: 15px;
+}
+
+.electivo-nombre {
+    font-weight: 600;
+}
+
+.electivo-linea {
+    font-size: 0.9em;
+    color: #666;
+    grid-column: 1 / span 2; 
+}
+
+.electivo-link {
+    align-self: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.electivo-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .electivos-listas {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ================================================= */
+/* 7. SECCION Calculadora (Estilos Adaptados - OSCURO/ROJO) */
+/* ================================================= */
+
+/* Contenedor principal de la calculadora (para darle el fondo oscuro general) */
+.notas-calculadora {
+    background-color: var(--color-fondo-calculadora);
+    color: var(--color-texto-claro);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    /* *** CAMBIO DE ANCHO APLICADO AQUÍ *** */
+    max-width: 650px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.notas-calculadora .parrafo-centrado {
+    color: #ccc;
+}
+
+/* Estilo del Bloque de Notas y Resultados */
+.contenedor-dinamico,
+.contenedor-resultados {
+    background-color: var(--color-fondo-calculadora);
+    border: 2px solid var(--color-borde-resaltado);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(158, 14, 28, 0.5);
+}
+
+/* Estilo para cada fila de nota */
+.fila-nota {
+    display: grid;
+    grid-template-columns: 2fr 2fr 0.5fr; 
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+/* Estilo para los Inputs (Más oscuros y borde rojo) */
+.input-nota,
+.input-porcentaje {
+    padding: 15px 12px;
+    border: 1px solid var(--color-borde-resaltado);
+    border-radius: 5px;
+    background-color: var(--color-fondo-input);
+    color: var(--color-texto-claro);
+    font-size: 1em;
+    text-align: center;
+    &::placeholder {
+        color: #888;
+    }
+}
+
+/* --- Botones --- */
+
+/* Botón de Eliminar (-) */
+.btn-eliminar {
+    background-color: var(--color-acento-principal);
+    color: var(--color-texto-claro);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    width: 100%; 
+    max-width: 50px;
+    justify-self: center;
+}
+
+.btn-eliminar:hover {
+    background-color: var(--color-acento-secundario);
+}
+
+/* Controles de Acción (Botones centrados) */
+.controles-accion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 30px; 
+    margin-top: 10px;
+}
+
+/* Estilo general para los botones de acción (Grandes) */
+.btn-accion {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+/* Estilo para el botón "Necesaria" (Principal - Rojo) */
+.btn-accion.primary {
+    background-color: var(--color-acento-principal);
+    color: var(--color-texto-claro);
+}
+
+/* Estilo para el botón "Limpiar" (Secundario - Oscuro) */
+.btn-accion.secondary {
+    background-color: var(--color-fondo-input);
+    color: var(--color-texto-claro);
+    border: 1px solid var(--color-acento-principal); 
+}
+
+/* Botón de Agregar (+) - Grande y Circular Rojo */
+.btn-agregar {
+    background-color: var(--color-acento-principal);
+    color: var(--color-texto-claro);
+    border: none;
+    border-radius: 50%;
+    width: 55px; 
+    height: 55px;
+    font-size: 2.2em;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s, transform 0.1s;
+    flex-shrink: 0;
+}
+
+.btn-agregar:hover {
+    background-color: var(--color-acento-secundario);
+}
+
+/* --- Estilos de Resultados (Recuadro Pequeño) --- */
+
+.contenedor-resultados h2 {
+    color: var(--color-acento-principal);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.cajas-resultado {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    /* *** CAMBIO DE ANCHO APLICADO AQUÍ *** */
+    max-width: 450px; 
+    margin: 0 auto; 
+}
+
+.cajas-resultado > div {
+    flex: 0 1 120px; 
+    text-align: center;
+}
+
+.cajas-resultado p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ccc;
+    height: 3.3em; 
+}
+
+.valor-resultado {
+    background-color: var(--color-fondo-input);
+    border: 1px solid var(--color-acento-principal);
+    border-radius: 5px;
+    padding: 10px 5px; 
+    margin-top: 5px;
+    font-size: 1.3em; 
+    font-weight: bold;
+    color: var(--color-texto-claro);
+}
