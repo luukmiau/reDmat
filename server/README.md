@@ -1,0 +1,1 @@
+Sección destinada para el backend y la generación de pulls y request via SCRUM

@@ -1,0 +1,1 @@
+Esta sección es para todo lo relacionado con frontend, llamdos de api y demases.
