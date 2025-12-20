@@ -1,0 +1,2007 @@
+[
+  {
+    "Asignatura": "Álgebra I",
+    "Sigla": "MAT-402",
+    "Información General": {
+      "Nombre de la linea de investigación": "Formación General",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación general. El estudiante aprenderá conceptos, herramientas y técnicas relacionadas a la teoría de grupos, de anillos y de cuerpos, desarrollando habilidades para identificar conexiones con problemas físicos y matemáticos.",
+      "Ramos": "MAT-402: Álgebra I",
+      "Pre-requisitos": "Ingreso al Programa. Se entenderá que los estudiantes en articulación cumplen estos requisitos si tienen el prerrequisito MAT-210 aprobado: identificar las principales propiedades de aplicaciones lineales en espacios vectoriales, distinguir las formas matriciales normales de aplicaciones lineales, y justificar el cálculo de bases y proyecciones ortogonales.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina al público en general, usando un lenguaje de acuerdo al contexto."
+      ],
+      "Específicas Disciplinares": [
+        "Interpreta nociones algebraicas conocidas, generalizándolas a través de la teoría de grupos.",
+        "Combina herramientas de la teoría de grupos para estudiar representaciones lineales.",
+        "Generaliza resultados clásicos sobre los números enteros, mediante el lenguaje de anillos y cuerpos."
+      ]
+    },
+    "Contenidos principales": [
+      "Grupos, subgrupos. Teorema de Lagrange, subgrupos normales, grupos cocientes. Acciones de grupos. Teoremas de Sylow. Grupos abelianos finitamente generados. Teorema de Jordan-Hölder.",
+      "Representaciones, subrepresentaciones. Representaciones irreducibles, producto tensorial. Caracteres y ortogonalidad.",
+      "Anillos, dominios enteros, cuerpo de fracciones, dominios principales, dominios euclidianos, dominios de factorización única. Ideales, anillo cociente. Ideales radicales, primos y maximales. Anillos noetherianos. Teorema de la base de Hilbert y Hilbert Nullstellensatz. Módulos sobre un anillo."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Dummit, D. S., & Foote, R. M.",
+          "Título": "Abstract algebra (Vol. 3).",
+          "Editorial": "Wiley, Hoboken",
+          "ISBN": "978-04-714-3334-7"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Hungerford, T. W.",
+          "Título": "Abstract algebra: an introduction.",
+          "Editorial": "Cengage Learning",
+          "ISBN": "978-11-115-6962-4"
+        },
+        {
+          "Autor": "Serre, J. P.",
+          "Título": "Linear representations of finite groups.",
+          "ISBN": "978-14-684-9458-7"
+        },
+        {
+          "Autor": "Atiyah, M. F., & Macdonald, I. G.",
+          "Título": "Introduction to commutative algebra.",
+          "Editorial": "Addison Wesley, Reading, MA",
+          "ISBN": "978-02-010-0361-1"
+        },
+        {
+          "Autor": "Fraleigh, J. B.",
+          "Título": "A first course in abstract algebra.",
+          "Editorial": "Pearson Education India",
+          "ISBN": "978-02-017-6390-4"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final = a·C + b·T, con a entre 0.6 y 0.8 y b entre 0.2 y 0.4."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+    }
+  },
+
+  {
+    "Asignatura": "Álgebra II",
+    "Sigla": "MAT-425",
+    "Información General": {
+      "Nombre de la linea de investigación": "Álgebra y Geometría",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en Álgebra y Geometría. El estudiante profundizará sus conocimientos en teoría de cuerpos y sus extensiones, comprendiendo los fundamentos de la teoría de Galois e identificando cómo dichas nociones se manifiestan en ejemplos concretos.",
+      "Ramos": "MAT-425: Álgebra II",
+      "Pre-requisitos": "MAT-402 (Álgebra I). Los resultados de aprendizaje previos incluyen interpretar nociones algebraicas con teoría de grupos y generalizar resultados clásicos sobre números enteros mediante anillos y cuerpos.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Reconoce y referencia adecuadamente el trabajo científico de otros.",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega de manera oportuna sus informes y/o tareas encomendadas.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos.",
+        "Explica efectivamente el conocimiento de su disciplina a sus pares y al público general.",
+        "Identifica problemas relevantes en la temática de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Examina diferentes tipos de extensiones de cuerpo, clasificándolas por algebraicidad o trascendencia.",
+        "Generaliza resultados clásicos sobre los números complejos al marco de cuerpos algebraicamente cerrados.",
+        "Considera extensiones intermedias como la cerradura separable.",
+        "Combina herramientas de teoría de grupos y teoría de cuerpos para establecer la correspondencia entre extensiones galoisianas y grupos de Galois."
+      ]
+    },
+    "Contenidos principales": [
+      "Cuerpos y extensiones. Extensiones finitas y algebraicas. Extensiones trascendentes y grado de trascendencia.",
+      "Cerradura algebraica. Cuerpo de descomposición y extensiones normales. Extensiones separables e inseparables. Cuerpos finitos.",
+      "Extensiones galoisianas. Teorema fundamental de la teoría de Galois. Extensiones solubles y radicales.",
+      "Tópicos opcionales: complementos de álgebra conmutativa, teoría de módulos, valuaciones y cuerpos locales, álgebra exterior, anillos de Dedekind."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Dummit, D. S., & Foote, R. M.",
+          "Título": "Abstract algebra (Vol. 3).",
+          "Editorial": "Wiley, Hoboken",
+          "ISBN": "978-04-714-3334-7"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Hungerford, T. W.",
+          "Título": "Abstract algebra: an introduction.",
+          "Editorial": "Cengage Learning",
+          "ISBN": "978-11-115-6962-4"
+        },
+        {
+          "Autor": "Samuel, P.",
+          "Título": "Algebraic Theory of Numbers.",
+          "Editorial": "Courier Corporation",
+          "ISBN": "978-04-864-6666-8"
+        },
+        {
+          "Autor": "Atiyah, M. F., & Macdonald, I. G.",
+          "Título": "Introduction to commutative algebra.",
+          "Editorial": "Addison Wesley, Reading, MA",
+          "ISBN": "978-02-010-0361-1"
+        },
+        {
+          "Autor": "Fraleigh, J. B.",
+          "Título": "A first course in abstract algebra.",
+          "Editorial": "Pearson Education India",
+          "ISBN": "978-02-017-6390-4"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas combinadas con técnicas de aprendizaje cooperativo. Guías de ejercicios con apuntes del profesor y uso de software adecuado.",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final = a·C + b·T, con a entre 0.6 y 0.8 y b entre 0.2 y 0.4.",
+        "Requisito Mínimo de Componentes": "Para aprobar, la nota de certámenes y de las otras actividades debe ser mayor o igual a 55."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de posgrado es 70 en escala de 0-100."
+    }
+  },
+
+  {
+    "Asignatura": "Geometría Algebraica",
+    "Sigla": "MAT-427",
+    "Información General": {
+      "Nombre de la linea de investigación": "Álgebra y Geometría",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en Álgebra y Geometría. Introduce nociones fundamentales como variedad algebraica, funciones regulares, espacio proyectivo, funciones racionales, divisores y cohomología de haces, ilustradas principalmente en el caso de curvas algebraicas.",
+      "Ramos": "MAT-427: Geometría Algebraica",
+      "Pre-requisitos": "MAT-402 (Álgebra I). Los resultados previos incluyen interpretar nociones algebraicas con teoría de grupos, estudiar representaciones lineales y generalizar propiedades de los números enteros mediante anillos y cuerpos.",
+      "Académicos": "Pedro Montero"
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en investigación.",
+        "Comunicar metodologías, resultados y conclusiones de manera efectiva."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas matemáticas desde la perspectiva de su línea de especialización.",
+        "Combinar teorías y métodos avanzados para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Reconoce y referencia adecuadamente el trabajo científico de otros.",
+        "Actúa con honestidad y autorregulación.",
+        "Entrega tareas e informes de manera oportuna.",
+        "Presenta evidencia de originalidad en reportes escritos.",
+        "Explica efectivamente el conocimiento disciplinar a distintos públicos.",
+        "Identifica problemas relevantes en la temática de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Categoriza variedades algebraicas, subvariedades y morfismos asociados.",
+        "Analiza propiedades intrínsecas como proyectividad, irreducibilidad, dimensión y suavidad.",
+        "Combina cohomología y teoría de fibrados vectoriales para estudiar consecuencias del teorema de Riemann-Roch."
+      ]
+    },
+    "Contenidos principales": [
+      "Hilbert's Nullstellensatz y Topología de Zariski. Prehaces, haces y espacios anillados. Variedades afines, funciones regulares, morfismos. Variedades algebraicas, productos, componentes irreducibles.",
+      "Variedades proyectivas, incrustación de Segre y Veronese, Grassmannianas. Funciones racionales, dimensión, morfismos finitos. Blow-up, espacio tangente y puntos singulares.",
+      "Fibrados vectoriales, haces localmente libres, fibrados en recta, divisores. Cohomología de haces, teoremas de anulación, dualidad de Serre. Teorema de Riemann-Roch para curvas algebraicas."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Shafarevich, I. R., & Reid, M.",
+          "Título": "Basic algebraic geometry I.",
+          "Editorial": "Springer-Verlag",
+          "ISBN": "978-35-405-4812-6"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Shafarevich, I. R., & Reid, M.",
+          "Título": "Basic algebraic geometry II.",
+          "Editorial": "Springer-Verlag",
+          "ISBN": "978-35-405-7554-2"
+        },
+        {
+          "Autor": "Hartshorne, R.",
+          "Título": "Algebraic geometry.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-879-0244-9"
+        },
+        {
+          "Autor": "Harris, J.",
+          "Título": "Algebraic geometry: a first course.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-879-7716-4"
+        },
+        {
+          "Autor": "Griffiths, P., & Harris, J.",
+          "Título": "Principles of algebraic geometry.",
+          "Editorial": "John Wiley & Sons",
+          "ISBN": "978-04-710-5059-9"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas y aprendizaje cooperativo. Guías de ejercicios con apoyo del profesor y uso de software cuando corresponda.",
+      "Mecanismos de Evaluación": "Al menos dos y un máximo de tres certámenes. Se realizan también tareas, controles y exposiciones.",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final = a·C + b·T, con a entre 0.6 y 0.8 y b entre 0.2 y 0.4.",
+        "Requisito Mínimo de Componentes": "La nota de certámenes y la nota de otras actividades deben ser ambas al menos 55."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación es 70 en escala de 0-100."
+    }
+  },
+  {
+    "Asignatura": "Análisis Convexo",
+    "Sigla": "MAT-410",
+    "Información General": {
+      "Nombre de la linea de investigación": "Optimización",
+      "Descripción": "Asignatura del área de Optimización que presenta los conceptos básicos del análisis convexo: conjuntos y funciones convexas, dualidad, y aplicaciones en problemas de optimización en espacios de Banach.",
+      "Pre-requisitos": "MAT-406 (Análisis Funcional). Se espera manejo de conceptos de espacios vectoriales topológicos y resultados clásicos del análisis funcional.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con responsabilidad profesional y ética en actividades de investigación.",
+        "Comunicar metodologías, resultados y conclusiones en forma oral y escrita.",
+        "Desarrollar actividades de investigación bajo supervisión.",
+        "Conformar equipos de investigación disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas avanzadas para resolver problemas.",
+        "Combinar teorías y métodos avanzados en su especialidad para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referenciar adecuadamente el trabajo científico de otros.",
+        "Actuar con honestidad y autorregulación en el quehacer académico.",
+        "Entregar informes y tareas siguiendo instrucciones y plazos.",
+        "Explicar conocimiento disciplinar por medio de informes o presentaciones.",
+        "Comunicar resultados de investigación en productos científicos.",
+        "Identificar problemas relevantes en su área.",
+        "Discutir temáticas de la disciplina y participar en equipos de investigación.",
+        "Proponer soluciones a problemas científicos con enfoque disciplinar o multidisciplinar."
+      ],
+      "Específicas Disciplinares": [
+        "Dominar herramientas del análisis convexo y dualidad aplicadas a optimización.",
+        "Analizar problemas en cálculo de variaciones y EDP usando análisis convexo."
+      ]
+    },
+    "Contenidos principales": [
+      "Propiedades de conjuntos convexos: convexidad, topología, interior relativo, teoremas geométricos de Hahn-Banach, teorema de Mazur, cono de recesión, teorema de Krein-Milman.",
+      "Funciones convexas: continuidad, semicontinuidad inferior, teorema de Weierstrass-Hilbert-Tonelli, conjugada de Fenchel, subdiferencial, cálculo subdiferencial, condiciones de optimalidad, función de recesión, aproximación de Moreau-Yosida, inclusiones diferenciales.",
+      "Dualidad en optimización convexa: funciones de perturbación, dualidad fuerte, teorema de Fenchel-Rockafellar, dualidad lagrangiana, teorema de Fritz-John, teorema minimax.",
+      "Tópicos adicionales: control óptimo convexo, métodos iterativos, subdiferenciales no convexas, optimización estocástica."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Peypouquet, J.",
+          "Título": "Convex optimization in normed spaces: theory, methods and examples.",
+          "Editorial": "Springer",
+          "ISBN": "978-33-191-3710-0"
+        },
+        {
+          "Autor": "Bauschke, H. H. & Combettes, P. L.",
+          "Título": "Convex analysis and monotone operator theory in Hilbert spaces.",
+          "Editorial": "Springer",
+          "ISBN": "978-14-419-9466-0"
+        },
+        {
+          "Autor": "Borwein, J. & Lewis, A. S.",
+          "Título": "Convex analysis and nonlinear optimization: theory and examples.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-873-1256-9"
+        },
+        {
+          "Autor": "Hiriart-Urruty, J. B. & Lemaréchal, C.",
+          "Título": "Convex analysis and minimization algorithms 1: Fundamentals.",
+          "Editorial": "Springer",
+          "ISBN": "978-36-620-2796-7"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Hiriart-Urruty, J. B. & Lemaréchal, C.",
+          "Título": "Convex analysis and minimization algorithms II: Advanced Theory and Bundle Methods.",
+          "Editorial": "Springer",
+          "ISBN": "978-36-620-6409-2"
+        },
+        {
+          "Autor": "Brezis, H.",
+          "Título": "Functional analysis, Sobolev spaces and partial differential equations.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-877-0914-7"
+        },
+        {
+          "Autor": "Rockafellar, R. T.",
+          "Título": "Convex analysis.",
+          "Editorial": "Princeton University Press",
+          "ISBN": "978-06-910-1586-6"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Dos sesiones de cátedra y una ayudantía por semana. Predominan clases expositivas con actividades participativas limitadas.",
+      "Mecanismos de Evaluación": "Dos o tres certámenes y otras actividades evaluadas como tareas, controles o exposiciones.",
+      "Ponderaciones": {
+        "Certámenes": "≥ 60% de la nota final",
+        "Otras Actividades": "≥ 20% de la nota final",
+        "Fórmula de Nota Final": "NF = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4"
+      },
+      "Requisito de Aprobación": "Nota mínima 70/100."
+    }
+  },
+  {
+    "Asignatura": "Optimización No Lineal",
+    "Sigla": "MAT-470",
+    "Información General": {
+      "Nombre de la linea de investigación": "Optimización",
+      "Descripción": "Asignatura orientada al análisis de problemas donde se busca maximizar o minimizar funcionales, cubriendo existencia de soluciones y algoritmos para aproximarlas.",
+      "Pre-requisitos": "MAT-401 (Análisis I). Se espera manejo básico de análisis en espacios métricos, topológicos y normados.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con responsabilidad profesional y ética.",
+        "Conformar equipos de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas matemáticas avanzadas para resolver problemas.",
+        "Combinar teorías y métodos avanzados para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referenciar adecuadamente el trabajo científico de otros.",
+        "Actuar con honestidad y autorregulación.",
+        "Entregar informes y tareas siguiendo instrucciones.",
+        "Proponer soluciones a problemas científicos."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar problemas de optimización en distintos contextos y modelarlos.",
+        "Distinguir condiciones de optimalidad con y sin restricciones.",
+        "Determinar soluciones exactas o aproximadas mediante distintos métodos.",
+        "Analizar algoritmos para resolver problemas de optimización y escoger el adecuado."
+      ]
+    },
+    "Contenidos principales": [
+      "Problemas de optimización y existencia de soluciones.",
+      "Introducción al análisis convexo.",
+      "Condiciones de optimalidad en problemas sin restricciones.",
+      "Métodos de resolución sin restricciones: gradiente generalizado, algoritmos proximales, gradiente, gradiente conjugado, quasi-Newton, regiones de confianza.",
+      "Problemas con restricciones: condiciones de optimalidad, multiplicadores de Lagrange, KKT, condiciones de calificación.",
+      "Dualidad lagrangiana y programación lineal.",
+      "Resolución con restricciones: penalización, barreras, métodos de punto interior, lagrangiano aumentado, programación cuadrática secuencial."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Bertsekas, D.",
+          "Título": "Nonlinear Programming.",
+          "Editorial": "Athena Scientific",
+          "ISBN": "978-18-865-2900-7"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Nocedal, J. & Wright, S. J.",
+          "Título": "Numerical Optimization.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-873-0303-1"
+        },
+        {
+          "Autor": "Borwein, J. & Lewis, A. S.",
+          "Título": "Convex analysis and nonlinear optimization.",
+          "Editorial": "Springer",
+          "ISBN": "978-03-872-9570-1"
+        },
+        {
+          "Autor": "Hiriart-Urruty, J. B. & Lemaréchal, C.",
+          "Título": "Convex analysis and minimization algorithms I.",
+          "Editorial": "Springer",
+          "ISBN": "978-36-620-2796-7"
+        },
+        {
+          "Autor": "Hiriart-Urruty, J. B. & Lemaréchal, C.",
+          "Título": "Convex analysis and minimization algorithms II.",
+          "Editorial": "Springer",
+          "ISBN": "978-36-620-6409-2"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas.",
+      "Mecanismos de Evaluación": "Dos o tres certámenes y otras actividades evaluadas.",
+      "Ponderaciones": {
+        "Certámenes": "≥ 60% de la nota final",
+        "Otras Actividades": "≥ 20% de la nota final",
+        "Fórmula de Nota Final": "NF = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4"
+      },
+      "Requisito de Aprobación": "Nota mínima 70/100."
+    }
+  },
+  {
+    "Asignatura": "Optimización y Control",
+    "Sigla": "MAT-471",
+    "Información General": {
+      "Nombre de la linea de investigación": "Optimización",
+      "Descripción": "Asignatura que desarrolla herramientas matemáticas para problemas variacionales y de control, con aplicaciones en ingeniería y ciencias.",
+      "Pre-requisitos": "MAT-470 (Optimización No Lineal).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con responsabilidad profesional y ética.",
+        "Conformar equipos de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas matemáticas avanzadas para resolver problemas.",
+        "Combinar métodos avanzados para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referenciar adecuadamente el trabajo científico.",
+        "Actuar con honestidad y autorregulación.",
+        "Entregar trabajos según las indicaciones.",
+        "Proponer soluciones a problemas científicos."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar problemas de cálculo de variaciones y control óptimo.",
+        "Identificar condiciones necesarias y suficientes para caracterizar soluciones.",
+        "Analizar propiedades de controlabilidad.",
+        "Aplicar métodos de estabilización para determinar controles."
+      ]
+    },
+    "Contenidos principales": [
+      "Problemas de cálculo de variaciones: formulación, ejemplos, existencia y regularidad.",
+      "Ecuaciones de Euler-Lagrange, extremos libres, restricciones isoperimétricas.",
+      "Controlabilidad y estabilización de ecuaciones lineales: criterios tipo Kalman, Gramiano, localización de polos.",
+      "Problemas de control óptimo: formulación, existencia.",
+      "Control en tiempo mínimo, problemas lineal-cuadráticos.",
+      "Principio del máximo de Pontryagin.",
+      "Programación dinámica y ecuación de Hamilton-Jacobi-Bellman."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Cerda, E.",
+          "Título": "Optimización Dinámica.",
+          "Editorial": "Pearson Educación",
+          "ISBN": "978-84-205-2937-0"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Gelfand, I. M. & Fomin, S. V.",
+          "Título": "Calculus of Variations.",
+          "Editorial": "Prentice-Hall",
+          "ISBN": "978-04-864-1448-5"
+        },
+        {
+          "Autor": "Trélat, E.",
+          "Título": "Contrôle optimal. Théorie & applications.",
+          "Editorial": "Vuibert",
+          "ISBN": "978-27-117-7175-2"
+        },
+        {
+          "Autor": "Coron, J. M.",
+          "Título": "Control and nonlinearity.",
+          "Editorial": "American Mathematical Society",
+          "ISBN": "978-08-218-4918-7"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas y estudio independiente.",
+      "Mecanismos de Evaluación": "Dos o tres certámenes más otras actividades evaluadas.",
+      "Ponderaciones": {
+        "Certámenes": "≥ 60% de la nota final",
+        "Otras Actividades": "≥ 20% de la nota final",
+        "Fórmula de Nota Final": "NF = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4"
+      },
+      "Requisito de Aprobación": "Nota mínima 70/100."
+    }
+  },
+  {
+    "Asignatura": "Análisis No lineal",
+    "Sigla": "MAT-409",
+    "Información General": {
+      "Nombre de la linea de investigación": "Ecuaciones en Derivadas Parciales (EDP)",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Ecuaciones en Derivadas Parciales. El estudiante aprenderá algunos métodos del análisis no-lineal como teoremas de punto fijo, técnicas no-variacionales, grado topológico y aplicaciones, para resolver y comprender ecuaciones diferenciales ordinarias y parciales.",
+      "Pre-requisitos": "MAT-406 (Análisis Funcional) y MAT-418 (Teoría Avanzada de Ecuaciones Diferenciales Parciales).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de actividades de investigación.",
+        "Comunicar metodologías, resultados y conclusiones de manera efectiva, oral y escrita.",
+        "Desarrollar actividades de investigación bajo supervisión experta para generar nuevo conocimiento.",
+        "Conformar equipos de investigación para ejecutar proyectos disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas para resolver problemas de matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros en documentos académicos.",
+        "Entrega informes y tareas siguiendo instrucciones y plazos establecidos.",
+        "Presenta evidencia de originalidad en sus reportes escritos.",
+        "Explica conocimiento disciplinar al público general adecuando el lenguaje.",
+        "Identifica problemas relevantes en la temática de investigación.",
+        "Discute temáticas de su disciplina usando argumentos científicos.",
+        "Propone soluciones a problemas de su quehacer científico."
+      ],
+      "Específicas Disciplinares": [
+        "Generaliza nociones del cálculo diferencial en espacios de Banach.",
+        "Construye puntos fijos distinguiendo propiedades de orden, convexidad, compacidad o monotonía.",
+        "Establece propiedades geométricas sobre soluciones, incluyendo no existencia, flujos gradientes, sub y super soluciones.",
+        "Investiga existencia de soluciones identificando propiedades del operador asociado."
+      ]
+    },
+    "Contenidos principales": [
+      "Linealización: cálculo diferencial en espacios Banach, función implícita, continuidad, reducción de Lyapunov-Schmidt y bifurcación.",
+      "Teoremas de punto fijo: métodos de orden, funciones convexas, compacidad, aplicaciones monótonas.",
+      "Técnicas no-variacionales: método de sub y super-soluciones, blow-up, identidad de Derrick-Pohozaev, propiedades geométricas.",
+      "Grado topológico y aplicaciones: grado de Brouwer, Leray-Schauder, bifurcación global."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Evans, L. C.",
+          "Título": "Partial differential equations. Second edition.",
+          "Editorial": "American Mathematical Society",
+          "ISBN": "0-8218-0772-2"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Deimling, K.",
+          "Título": "Nonlinear Functional Analysis.",
+          "Editorial": "Springer-Verlag"
+        },
+        {
+          "Autor": "Rabinowitz, P.",
+          "Título": "Théorie du degré topologique et applications a des problèmes aux limites non lineares.",
+          "Editorial": "Université Paris VI"
+        },
+        {
+          "Autor": "Kavian, O.",
+          "Título": "Introduction à la théorie des points critiques et applications aux problèmes elliptiques.",
+          "Editorial": "Springer Verlag"
+        },
+        {
+          "Autor": "Chang, K. C.",
+          "Título": "Methods in nonlinear analysis.",
+          "Editorial": "Springer"
+        },
+        {
+          "Autor": "Kesavan, S.",
+          "Título": "Nonlinear functional analysis: a first course.",
+          "Editorial": "Springer"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas, tareas individuales, exposiciones y estudio personal.",
+      "Mecanismos de Evaluación": "Entre dos y tres certámenes más otras actividades evaluadas (tareas, controles o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4."
+      },
+      "Requisito de Aprobación": "Nota mínima 70 en escala 0-100."
+    }
+  },
+
+  {
+    "Asignatura": "Teoría Avanzada de Ecuaciones Diferenciales Parciales",
+    "Sigla": "MAT-418",
+    "Información General": {
+      "Nombre de la linea de investigación": "Ecuaciones en Derivadas Parciales (EDP)",
+      "Descripción": "Esta asignatura introduce herramientas avanzadas del análisis de EDP: espacios de Sobolev, soluciones débiles, existencia, regularidad y principios del máximo, con aplicaciones en física y matemática.",
+      "Pre-requisitos": "MAT-406 (Análisis Funcional).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar responsablemente y éticamente en investigación.",
+        "Comunicar metodologías, resultados y conclusiones.",
+        "Realizar investigación bajo supervisión especializada.",
+        "Participar en equipos de investigación multidisciplinarios."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas matemáticas relevantes.",
+        "Aplicar métodos avanzados para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia trabajo científico ajeno en documentos académicos.",
+        "Actúa con honestidad académica.",
+        "Entrega trabajos según pautas y plazos.",
+        "Presenta evidencia de originalidad en informes.",
+        "Explica contenidos disciplinarios a distintos públicos.",
+        "Identifica problemas relevantes en investigación.",
+        "Discute temas disciplinares con rigor científico.",
+        "Propone soluciones basadas en su conocimiento disciplinar."
+      ],
+      "Específicas Disciplinares": [
+        "Resuelve ecuaciones de transporte, Laplace, calor y onda.",
+        "Formula problemas débiles identificando los espacios de Sobolev requeridos.",
+        "Investiga soluciones débiles a problemas elípticos y parabólicos."
+      ]
+    },
+    "Contenidos principales": [
+      "Ecuación del transporte, Laplace, calor y onda.",
+      "Espacios de Sobolev: derivadas débiles, extensiones, trazas, desigualdades, compacidad.",
+      "Ecuaciones elípticas: soluciones débiles, existencia, regularidad, valores propios.",
+      "Ecuaciones parabólicas: existencia, unicidad y regularidad."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Evans, L.C.",
+          "Título": "Partial differential equations. Second edition.",
+          "Editorial": "American Mathematical Society",
+          "ISBN": "978-0821849743"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Brezis, H.",
+          "Título": "Functional analysis, Sobolev spaces and partial differential equations.",
+          "Editorial": "Springer"
+        },
+        {
+          "Autor": "John, F.",
+          "Título": "Partial differential equations.",
+          "Editorial": "Springer"
+        },
+        {
+          "Autor": "Iório, V.M.",
+          "Título": "EDP: Um Curso de Graduação.",
+          "Editorial": "IMPA"
+        },
+        {
+          "Autor": "Folland, G. B.; Joseph, K. T.; Thangavelu, S.",
+          "Título": "Lectures on partial differential equations.",
+          "Editorial": "Springer"
+        },
+        {
+          "Autor": "Gilbarg, D.; Trudinger, N. S.",
+          "Título": "Elliptic partial differential equations of second order.",
+          "Editorial": "Springer"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas, tareas individuales, exposiciones y estudio personal.",
+      "Mecanismos de Evaluación": "Dos a tres certámenes más actividades adicionales.",
+      "Ponderaciones": {
+        "Certámenes (C)": "Al menos 60%.",
+        "Otras Actividades (T)": "Al menos 20%.",
+        "Fórmula de Nota Final": "Nota Final = a·C + b·T."
+      },
+      "Requisito de Aprobación": "Nota mínima 70 sobre 100."
+    }
+  },
+
+  {
+    "Asignatura": "Introducción a la Teoría de Puntos Críticos",
+    "Sigla": "MAT-475",
+    "Información General": {
+      "Nombre de la linea de investigación": "Ecuaciones en Derivadas Parciales (EDP)",
+      "Descripción": "Esta asignatura introduce conceptos básicos del cálculo de variaciones y teoría de puntos críticos, con aplicaciones en problemas de física, matemática e ingeniería.",
+      "Pre-requisitos": "MAT-418 (Teoría Avanzada de Ecuaciones Diferenciales Parciales).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar éticamente en investigación.",
+        "Comunicar resultados de forma oral y escrita.",
+        "Desarrollar investigación con supervisión experta.",
+        "Integrar equipos de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas.",
+        "Usar métodos avanzados para demostrar resultados originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referenciar correctamente trabajos científicos.",
+        "Actuar con honestidad académica.",
+        "Cumplir plazos y formatos de entrega.",
+        "Demostrar originalidad en informes.",
+        "Comunicar contenidos disciplinarios a distintos públicos.",
+        "Identificar problemas relevantes en la investigación.",
+        "Discutir temas disciplinarios con fundamentos científicos.",
+        "Proponer soluciones científicas según el contexto.",
+        "Comunicar conocimientos a público general adecuadamente."
+      ],
+      "Específicas Disciplinares": [
+        "Desarrollar teoría del cálculo de variaciones.",
+        "Aplicar el principio variacional de Ekeland.",
+        "Analizar teoremas de puntos críticos como Paso de la Montaña y Linking.",
+        "Construir teoría de índice y géneros de Krasnoselskii.",
+        "Clasificar operadores pseudodiferenciables mediante sus símbolos."
+      ]
+    },
+    "Contenidos principales": [
+      "Cálculo de variaciones: teoría básica, primera y segunda variación, existencia de minimizantes, regularidad.",
+      "Principio variacional de Ekeland y aplicaciones, restricciones y multiplicadores.",
+      "Principio de concentración de compacidad.",
+      "Teorema del Paso de la Montaña, Linking y punto de Silla, aplicaciones a EDPs.",
+      "Teoría de índice, géneros y categoría de Ljusternik-Schnirelman.",
+      "Clasificación de operadores pseudodiferenciables."
+    ]
+  },
+  {
+    "Asignatura": "Modelos Biomatemáticos",
+    "Sigla": "MAT-437",
+    "Información General": {
+      "Nombre de la linea de investigación": "Sistemas Dinámicos",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Sistemas Dinámicos. El estudiante modelará y analizará problemas en dinámica poblacional, epidemiología matemática, cinemática de reacciones bioquímicas, sistemas excitables y fenómenos de propagación espacial. Para ello, el estudiante aprenderá y aplicará técnicas avanzadas de análisis de ecuaciones diferenciales ordinarias y parciales en los modelos estudiados, dando énfasis en la interpretación de los resultados obtenidos en el contexto del fenómeno biológico en estudio. [cite: 1965, 1966, 1967]",
+      "Ramos": "MAT-437: Modelos Biomatemáticos",
+      "Pre-requisitos": "MAT-440 (Ecuaciones Diferenciales Ordinarias). El resultado de aprendizaje previo incluye: analizar un sistema de ecuaciones diferenciales ordinarias no lineales, identificando sistemas topológicamente equivalentes y aplicando los teoremas de Hartman y de Poincaré-Bendixson; y utilizar herramientas de cálculo diferencial, integral y vectorial. [cite: 1970, 1971]",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad. ",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento. ",
+        "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares. "
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada. ",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales. "
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos. ",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada. ",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas. ",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Identifica problemas relevantes en la temática de investigación. ",
+        "Explica el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto. "
+      ],
+      "Específicas Disciplinares": [
+        "Investiga un problema de crecimiento poblacional, enfermedades infecciosas, propagación y oscilaciones biológicas formulando un modelo matemático que se ajusta al problema.",
+        "Analiza los modelos biomatemáticos usando técnicas de ecuaciones diferenciales ordinarias y parciales.",
+        "Analiza las soluciones obtenidas de un modelo matemático clasificándolas en términos del fenómeno biológico estudiado. "
+      ]
+    },
+    "Contenidos principales": [
+      "Dinámica de Poblaciones: Modelos para poblaciones aisladas. Sistemas depredador-presa. Respuestas funcionales, bifurcaciones y ciclos límite. Modelos bien planteados.",
+      "Enfermedades infecciosas: Modelos SIRS, número básico de reproducción.",
+      "Cinética de reacciones bioquímicas: Modelo de Michaelis-Menten, sistemas slow-fast y análisis de perturbación singular.",
+      "Oscilaciones biológicas: Osciladores acoplados y sincronización. Ondas viajeras en osciladores acoplados. Oscilaciones de relajación, propagación de impulsos nerviosos en neuronas, ecuaciones de Hodgkin-Huxley, modelo de Fitzhugh-Nagumo. Sistemas slow-fast y teoría geométrica de perturbación singular. ",
+      "Mecanismos de dispersión espacial: Ecuación de conservación. Convección, atracción y difusión. Ecuaciones de reacción-difusión y propagación espacial. Ondas viajeras en ecuaciones de reacción-difusión: pulsos viajeros, frentes de onda, ondas periódicas. Ecuación de Fisher-Kolgomorov. ",
+      "Formación de patrones: Bifurcación de Turing. Sistemas activador-inhibidor, morfogénesis (creación de formas y patrones espaciales)."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Britton, N. F.",
+          "Título": "Essential Mathematical Biology.",
+          "Editorial": "Springer Science & Business Media",
+          "ISBN": "978-1-4471-0049-2"
+        },
+        {
+          "Autor": "Farkas, M.",
+          "Título": "Dynamical Models in Biology.",
+          "Editorial": "Academic press",
+          "ISBN": "978-0122491030"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Edelstein-Keshet, L.",
+          "Título": "Mathematical Models in Biology.",
+          "Editorial": "Society for Industrial and Applied Mathematics",
+          "ISBN": "9780898715545"
+        },
+        {
+          "Autor": "Murray, J.",
+          "Título": "Mathematical Biology.",
+          "Editorial": "Springer-Verlag, New York London",
+          "ISBN": "978-0-387-22437-4"
+        },
+        {
+          "Autor": "Bazykin, A.",
+          "Título": "Nonlinear Dynamics of Interacting Populations.",
+          "Editorial": "World Scientific, Singapore River Edge, NJ",
+          "ISBN": "9810216858"
+        },
+        {
+          "Autor": "Brauer, F. & Chávez, C.",
+          "Título": "Mathematical Models in Population Biology and Epidemiology.",
+          "Editorial": "Springer, New York, NY",
+          "ISBN": "978-1-4614-1686-9"
+        },
+        {
+          "Autor": "Izhikevich, E.",
+          "Título": "Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting.",
+          "Editorial": "MIT Press, Cambridge, Mass",
+          "ISBN": "9780262090438"
+        },
+        {
+          "Autor": "Kuehn, C.",
+          "Título": "Multiple Time Scale Dynamics.",
+          "Editorial": "Springer, Cham",
+          "ISBN": "978-3-319-12316-5"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas teóricas. Tareas individuales. Exposiciones por parte de los alumnos. ",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones). ",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final. ",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+      },
+      
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100. "
+    }
+  },
+  {
+    "Asignatura": "Teoría de Bifurcaciones",
+    "Sigla": "MAT-446",
+    "Información General": {
+      "Nombre de la linea de investigación": "Sistemas Dinámicos",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Sistemas Dinámicos. En ella, el estudiante adquiere los fundamentos de la **teoría de bifurcaciones** de sistemas dinámicos a tiempo continuo y discreto, desarrollando habilidades de análisis sobre la ocurrencia, genericidad, transversalidad y posibles deformaciones, obteniendo información sobre rutas al caos, y sobre cambios geométricos y topológicos en familias de sistemas dinámicos que dependen de parámetros. ",
+      "Ramos": "MAT-446: Teoría de Bifurcaciones",
+      "Pre-requisitos": "MAT-449 (Sistemas Dinámicos y Caos). Los resultados de aprendizaje previos incluyen: analizar un sistema dinámico, determinando la existencia y estabilidad de puntos de equilibrio, órbitas periódicas, conjuntos caóticos, cuencas de atracción y variedades invariantes, usando diversas técnicas; y analizar las bifurcaciones locales de un sistema, deduciendo los posibles cambios topológicos de un retrato de fase.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+        "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional. ",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Identifica problemas relevantes en la temática de investigación.",
+        "Explica el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto. "
+      ],
+      "Específicas Disciplinares": [
+        "Construye un diagrama de bifurcación, determinando la codimensión y el unfolding de las bifurcaciones.",
+        "Determina la forma normal topológica de una bifurcación, para determinar las posibles deformaciones de una familia de sistemas dinámicos.",
+        "Clasifica bifurcaciones locales de codimensión uno, examinando condiciones de genericidad y transversalidad. ",
+        "Analiza variedades centrales, para determinar bifurcaciones locales en sistemas n-dimensionales y bifurcaciones de órbitas periódicas.",
+        "Clasifica bifurcaciones globales, investigando la existencia de órbitas homoclínicas y heteroclínicas. ",
+        "Examina otras bifurcaciones a un parámetro, incluyendo órbitas homoclínicas a ciclos, tangencias homoclínicas, enredos homoclínicos (homoclinic tangles) y toros invariantes.",
+        "Distingue bifurcaciones de codimensión dos, incluyendo Cusp, Hopf degenerada (Bautin), Bogdanov-Takens, fold-Hopf, flip generalizada y resonancias fuertes."
+      ]
+    },
+    "Contenidos principales": [
+      "Definiciones y herramientas básicas: Diagramas de bifurcación. Codimensión. Deformación o unfolding de una bifurcación. Estabilidad estructural. Teorema de la forma normal. Términos resonantes. Forma normal topológica de una bifurcación. Deformación versal. ",
+      "Teoría de bifurcaciones locales de codimensión uno: Fold (silla-nodo), transcrítica, pitchfork, flip (duplicación de período), Andronov-Hopf, Neimarck-Sacker. Condiciones de genericidad y transversalidad. ",
+      "Teoría de la variedad central: Teorema de reducción de dimensión. Variedades centrales en sistemas que dependen de parámetros. Aplicaciones: Bifurcaciones locales en sistemas dinámicos n-dimensionales. Bifurcaciones de órbitas periódicas. ",
+      "Bifurcaciones globales en sistemas continuos: Órbitas homoclínicas y heteroclínicas. Teorema de Andronov-Leontovich para órbitas homoclínicas planares. Bifurcaciones homoclínicas en R^3$. Teoremas de Shilnikov. Caos homoclínico de Shilnikov. ",
+      "Otras bifurcaciones a un parámetro: Bifurcaciones de órbitas homoclínicas a ciclos, tangencias homoclínicas y enredos homoclínicos (homoclinic tangles). Bifurcaciones en toros invariantes. Número de rotación. Lenguas de Arnol’d. ",
+      "Bifurcaciones locales de codimensión dos: Cusp, Hopf degenerada (Bautin), Bogdanov-Takens, fold-Hopf, flip generalizada, resonancias fuertes."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Guckenheimer J., & Holmes, P.",
+          "Título": "Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields.",
+          "Editorial": "Springer",
+          "ISBN": "978-0387908199"
+        },
+        {
+          "Autor": "Hale, J. & Koçak, H.",
+          "Título": "Dynamics and Bifurcations.",
+          "Editorial": "Springer-Verlag, New York",
+          "ISBN": "978-0-387-97141-4"
+        },
+        {
+          "Autor": "Homburg A.J., & Sandstede, B.",
+          "Título": "Homoclinic and Heteroclinic Bifurcations in Vector Fields. In Handbook of Dynamical Systems.",
+          "Editorial": "Elsevier",
+          "ISBN": "9780444531414"
+        },
+        {
+          "Autor": "Kuznetsov, Y.",
+          "Título": "Elements of Applied Bifurcation Theory.",
+          "Editorial": "Springer",
+          "ISBN": "9781441919519"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Arrowsmith, D. K., & Place, C. M.",
+          "Título": "An Introduction to Dynamical Systems.",
+          "Editorial": "Cambridge",
+          "ISBN": "978-0821891353"
+        },
+        {
+          "Autor": "Ilyashenko, Y. & Li, W.",
+          "Título": "Nonlocal Bifurcations, Mathematical Surveys and Monographs Vol. 66.",
+          "Editorial": "American Mathematical Society",
+          "ISBN": "978-0-8218-0497-1"
+        },
+        {
+          "Autor": "Palis, J., & Takens, F.",
+          "Título": "Hyperbolicity and Sensitive Chaotic Dynamics at Homoclinic Bifurcations.",
+          "Editorial": "Cambridge University Press",
+          "ISBN": "9780521390644"
+        },
+        {
+          "Autor": "Seydel, R.",
+          "Título": "Practical Bifurcation and Stability Analysis.",
+          "Editorial": "Springer, New York",
+          "ISBN": "978-1-4419-1739-3"
+        },
+        {
+          "Autor": "Shilnikov, LP., Shilnikov, A.L., Turaev, D.V. & Chua, L.O.",
+          "Título": "Methods of Qualitative Theory in Nonlinear Dynamics (Part II).",
+          "Editorial": "World Scientific Publishing (World Scientific Series on Nonlinear Science Series A Vol. 5)",
+          "ISBN": "978-981-02-4072-1"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas. Tareas individuales. Exposiciones. Estudio personal. ",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final. ",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final. ",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4. "
+      },
+     "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100. "
+    }
+  },
+  {
+      "Asignatura": "Sistemas Dinámicos y Caos",
+    "Sigla": "MAT-449",
+    "Información General": {
+      "Nombre de la linea de investigación": "Sistemas Dinámicos",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Sistemas Dinámicos. El estudiante comprenderá los fundamentos de la teoría moderna de sistemas dinámicos no lineales y caos, y sus aplicaciones. Aplicará diversos métodos analíticos y geométricos para obtener información cuantitativa y cualitativa sobre el comportamiento de un sistema dinámico, identificando bifurcaciones y dinámica caótica de un sistema, y describiendo sus consecuencias en modelos matemáticos.",
+      "Ramos": "MAT-449: Sistemas Dinámicos y Caos",
+      "Pre-requisitos": "MAT-401 (Análisis I) y MAT-440 (Ecuaciones Diferenciales Ordinarias).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Explica el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+      ],
+      "Específicas Disciplinares": [
+        "Analiza un sistema dinámico, determinando la existencia y estabilidad de puntos de equilibrio, órbitas periódicas, conjuntos caóticos, cuencas de atracción y variedades invariantes, usando diversas técnicas.",
+        "Determina equivalencias y conjugaciones topológicas entre sistemas dinámicos.",
+        "Analiza distintos tipos de oscilaciones no lineales en un sistema dinámico, determinando su estabilidad y entendiendo sus aplicaciones en la Ingeniería y Ciencias Básicas.",
+        "Analiza las bifurcaciones de un sistema deduciendo los posibles cambios topológicos de un retrato de fase.",
+        "Determina la presencia de comportamientos caóticos, aplicando esta información en el estudio de diversos sistemas teóricos y aplicados."
+      ]
+    },
+    "Contenidos principales": [
+      "Conceptos básicos: Espacios de fase. Campos de vectores, flujos y difeomorfismos. Retratos de fase, equivalencia y conjugación topológica. Conjuntos invariantes.",
+      "Análisis local: Hiperbolicidad, teorema de Hartman-Grobman. Aplicación de retorno de Poincaré. Ecuación variacional y teoría de Floquet. Bifurcaciones locales en sistemas continuos y discretos.",
+      "Análisis global: Variedades invariantes. Teorema de la variedad estable. Conexiones homoclínicas y heteroclínicas. Puntos no-errantes. Atractores. Separatrices y cuencas de atracción. Osciladores acoplados. Dinámica cuasiperiódica. Oscilaciones forzadas. Teorema de Peixoto. Sistemas de Morse-Smale.",
+      "Elementos de la Teoría del Caos: Sensibilidad a las condiciones iniciales. Transitividad. Rutas al caos. Conjuntos invariantes tipo Cantor. Dinámica simbólica. Herradura de Smale. Ejemplos de sistemas caóticos."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Devaney, R. L.",
+          "Título": "An Introduction to Chaotic Dynamical Systems.",
+          "Editorial": "Academic Press",
+          "ISBN": "978-0201130461"
+        },
+        {
+          "Autor": "Hirsch, M.W., Smale, S., & Devaney, R.L.",
+          "Título": "Differential Equations, Dynamical Systems, and an Introduction to Chaos.",
+          "Editorial": "Academic Press",
+          "ISBN": "978-0123497031"
+        },
+        {
+          "Autor": "Strogatz, S.",
+          "Título": "Nonlinear Dynamics and Chaos.",
+          "Editorial": "CRC Press",
+          "ISBN": "9788187169857"
+        },
+        {
+          "Autor": "Wiggins, S.",
+          "Título": "Introduction to Applied Nonlinear Dynamical Systems and Chaos. Springer-Verlag (Texts in Applied Mathematics 2).",
+          "ISBN": "978-0387001777"
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Arrowsmith, D. K., & Place, C. M.",
+          "Título": "An Introduction to Dynamical Systems.",
+          "Editorial": "Cambridge",
+          "ISBN": "978-0821891353"
+        },
+        {
+          "Autor": "Broer, H., & Takens, F.",
+          "Título": "Dynamical Systems and Chaos.",
+          "Editorial": "Springer-Verlag",
+          "ISBN": "978-1727161533"
+        },
+        {
+          "Autor": "Guckenheimer J., & Holmes, P.",
+          "Título": "Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields.",
+          "Editorial": "Springer",
+          "ISBN": "978-0387908199"
+        },
+        {
+          "Autor": "Kuznetsov, Y.",
+          "Título": "Elements of Applied Bifurcation Theory.",
+          "Editorial": "Springer",
+          "ISBN": "9781441919519"
+        },
+        {
+          "Autor": "Meiss, J. D.",
+          "Título": "Differential Dynamical Systems. Revised edition.",
+          "Editorial": "SIAM",
+          "ISBN": "978-0898716351"
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas teóricas. Tareas individuales. Aprendizaje basado en el análisis y discusión.",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T$, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+    }
+  },
+  {
+    "Asignatura": "Métodos de los Elementos Finitos Mixtos",
+    "Sigla": "MAT-415",
+    "Información General": {
+      "Nombre de la linea de investigación": "Análisis Numérico",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Análisis Numérico. En ella, el estudiante adquirirá los conocimientos y desarrollará las técnicas para analizar problemas en donde se debe utilizar el método de elementos finitos mixtos, estudiando sus formulaciones básicas y las aplicaciones actuales de este método.",
+      "Ramos": "MAT-415: Métodos de los Elementos Finitos Mixtos",
+      "Pre-requisitos": "MAT-419 (Métodos Numéricos para Ecuaciones Diferenciales Parciales). Los resultados de aprendizaje previos incluyen: distinguir los métodos de diferencias finitas y elementos finitos, construir formulaciones variacionales, establecer propiedades de estabilidad y convergencia de los métodos numéricos, y evaluar la utilización de herramientas de análisis funcional y ecuaciones diferenciales.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+        "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Identifica problemas relevantes en la temática de investigación.",
+        "Discute con otros temáticas de su disciplina, pudiendo participar en equipos de investigación, usando argumentos científicos.",
+        "Explica efectivamente el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+      ],
+      "Específicas Disciplinares": [
+        "Distingue el método de elementos finitos mixtos para la resolución numérica de problemas de ecuaciones diferenciales parciales.",
+        "Construye formulaciones variacionales que permiten argumentar la existencia y unicidad de soluciones.",
+        "Establece propiedades de estabilidad y convergencia de los métodos numéricos.",
+        "Investiga la adecuada utilización del método en distintos problemas de resolución numérica de ecuaciones diferenciales parciales."
+      ]
+    },
+    "Contenidos principales": [
+      "Formulaciones variacionales mixtas de problemas clásicos: Métodos duales y primales. Existencia y unicidad de solución: condición inf-sup. Aplicaciones.",
+      "Formulaciones variacionales mixtas discretas: Existencia y unicidad de solución: condición inf-sup discreta. Lemma de Fortin. Estimaciones del error a priori. Espacios de Raviart-Thomas.",
+      "Aplicaciones: El problema de Stokes. Elasticidad Lineal. El problema de placas de Reissner-Mindlin."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Braess, D.",
+          "Título": "Finite elements: Theory, fast solvers, and applications in solid mechanics.",
+          "Editorial": "Cambridge University Press.",
+          "ISBN": "978-04-150-6139-1."
+        },
+        {
+          "Autor": "DeVore, Ronald, Kunoth, Angela (Eds.)",
+          "Título": "Multiscale, Nonlinear and Adaptive Approximation.",
+          "Editorial": "Springer.",
+          "ISBN": "978-3-642-03413-8."
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Boffi, D., Brezzi, F., & Fortin, M.",
+          "Título": "Mixed finite element methods and applications.",
+          "Editorial": "Heidelberg: Springer.",
+          "ISBN": "978-3-642-36519-5."
+        },
+        {
+          "Autor": "Quarteroni, A., & Quarteroni, S.",
+          "Título": "Numerical models for differential problems.",
+          "Editorial": "Milan: Springer.",
+          "ISBN": "978-88-470-5522-3."
+        },
+        {
+          "Autor": "Girault, V., & Raviart, P. A.",
+          "Título": "Finite element methods for Navier-Stokes equations: theory and algorithms.",
+          "Editorial": "Springer Science & Business Media.",
+          "ISBN": "978-3-642-61623-5."
+        },
+        {
+          "Autor": "DeVore, R., & Kunoth, A.",
+          "Título": "Multiscale, nonlinear and adaptive approximation.",
+          "Editorial": "Springer Berlin Heidelberg.",
+          "ISBN": "978-3-642-03413-8."
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Dos sesiones de cátedra y una ayudantía por semana. Al menos un 70% de las clases lectivas se centran en la exposición sistemática de los contenidos teóricos por parte del profesor y la participación de los estudiantes. Se combina con metodologías participativas (trabajo grupal, tareas, estudio independiente, proyectos de investigación), las cuales no pueden superar el 30% de las clases lectivas del semestre.",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+    }
+  },
+  {
+  "Asignatura": "Métodos Numéricos para Ecuaciones Diferenciales Parciales",
+  "Sigla": "MAT-419",
+  "Información General": {
+    "Nombre de la linea de investigación": "Análisis Numérico",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Análisis Numérico. En ella, el estudiante adquiere los principales conceptos de la resolución numérica y análisis del método de diferencias finitas y el método de elementos finitos, adquiriendo habilidades para la resolución numérica de ecuaciones diferenciales parciales.",
+    "Ramos": "MAT-419: Métodos Numéricos para Ecuaciones Diferenciales Parciales",
+    "Pre-requisitos": "MAT-406 (Análisis Funcional). Los resultados de aprendizaje previos incluyen: analizar resultados clásicos del análisis funcional para determinar propiedades de operadores lineales y de topologías débiles, e identificar características y propiedades de operadores lineales.",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+      "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+      "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+      "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones."
+    ],
+    "Específicas Disciplinares": [
+      "Distingue los métodos de diferencias finitas y elementos finitos para la resolución numérica de problemas de ecuaciones diferenciales parciales.",
+      "Construye formulaciones variacionales que permiten argumentar la existencia y unicidad de soluciones.",
+      "Establece propiedades de estabilidad y convergencia de los métodos numéricos.",
+      "Evalúa la utilización de herramientas de análisis funcional y ecuaciones diferenciales en el estudio de métodos numéricos."
+    ]
+  },
+  "Contenidos principales": [
+    "Método de diferencias finitas: Introducción y nociones básicas. Problema modelo. Principio del máximo. Estimaciones del error.",
+    "Método de elementos finitos: Formulación variacional de problemas elípticos y ejemplos: Lema de Lax-Milgram y la condición inf-sup. Método de elementos finitos e implementación. Teoría de interpolación polinomial en espacios de Sobolev. Estimaciones del error a priori y aplicaciones. Estimaciones del error a posteriori. Métodos de elementos finitos para problemas parabólicos e hiperbólicos: estabilidad y estimaciones del error a priori. Métodos para problemas no lineales: Método de Newton-Raphson."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Ern, A., & Guermond, J. L.",
+        "Título": "Theory and practice of finite elements.",
+        "Editorial": "Springer Science & Business Media.",
+        "ISBN": "978-1-4757-4355-5"
+      },
+      {
+        "Autor": "G. Allaire",
+        "Título": "Numerical Analysis and Optimization: An Introduction to Mathematical Modelling and Numerical Simulation.",
+        "Editorial": "Oxford University Press.",
+        "ISBN": "9780199205219."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Quarteroni, A., & Quarteroni, S.",
+        "Título": "Numerical models for differential problems.",
+        "Editorial": "Milan: Springer.",
+        "ISBN": "978-88-470-5522-3."
+      },
+      {
+        "Autor": "Brenner, S., & Scott, R.",
+        "Título": "The mathematical theory of finite element methods.",
+        "Editorial": "Springer Science & Business Media.",
+        "ISBN": "978-0-387-75934-0."
+      },
+      {
+        "Autor": "Ciarlet, P. G.",
+        "Título": "The finite element method for elliptic problems.",
+        "Editorial": "Siam.",
+        "ISBN": "978-0-89871-514-9."
+      },
+      {
+        "Autor": "Allaire, G.",
+        "Título": "Numerical Analysis and Optimization.",
+        "Editorial": "Oxford University Press.",
+        "ISBN": "9780199205219."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Clases expositivas teóricas y sesiones de aplicaciones computacionales donde los estudiantes desarrollarán tareas de resolución de problemas provenientes del ámbito de la ciencia e ingeniería.",
+    "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deben realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+    "Ponderaciones": {
+      "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación es 70 en escala 0–100."
+  }
+},
+{
+  "Asignatura": "Fundamentos Matemáticos de la Dinámica de Fluidos",
+  "Sigla": "MAT-432",
+  "Información General": {
+    "Nombre de la linea de investigación": "Análisis Numérico",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Análisis Numérico. El estudiante conocerá los fundamentos matemáticos y numéricos para la resolución de problemas de modelación del movimiento de fluidos, desarrollando habilidades para implementar y analizar métodos numéricos asociados.",
+    "Ramos": "MAT-432: Fundamentos Matemáticos de la Dinámica de Fluidos",
+    "Pre-requisitos": "MAT-415 (Métodos de los Elementos Finitos Mixtos).",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética.",
+      "Comunicar metodologías, resultados y conclusiones de manera efectiva.",
+      "Desarrollar actividades de investigación bajo supervisión.",
+      "Conformar equipos de investigación de forma proactiva."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas de su línea.",
+      "Combinar teorías y métodos avanzados para demostrar resultados."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros.",
+      "Actúa con honestidad y autorregulación.",
+      "Entrega informes de manera oportuna.",
+      "Presenta evidencia de originalidad en sus reportes.",
+      "Explica el conocimiento de su disciplina en informes y presentaciones.",
+      "Identifica problemas relevantes en investigación.",
+      "Discute temáticas disciplinarias usando argumentos científicos.",
+      "Propone soluciones a problemas científicos.",
+      "Explica su disciplina al público general de forma adecuada."
+    ],
+    "Específicas Disciplinares": [
+      "Revisa las ecuaciones que describen el movimiento de fluidos.",
+      "Diferencia enfoques numéricos para estas ecuaciones.",
+      "Establece metodologías para resolver problemas de fluidos en software.",
+      "Evalúa la conveniencia de distintas formulaciones y métodos."
+    ]
+  },
+  "Contenidos principales": [
+    "Ecuaciones de Euler, Rotación, Vorticidad y formulación física de las ecuaciones de Navier-Stokes.",
+    "Flujos potenciales y viscosos.",
+    "Ecuaciones de Navier-Stokes y su formulación débil.",
+    "Ecuaciones de Stokes y sus aproximaciones.",
+    "Discretización temporal de las ecuaciones de Navier-Stokes."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Quarteroni, A., & Quarteroni, S.",
+        "Título": "Numerical models for differential problems.",
+        "Editorial": "Springer.",
+        "ISBN": "978-88-470-5522-3."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Chorin, A. J., & Marsden, J. E.",
+        "Título": "A mathematical introduction to fluid mechanics.",
+        "Editorial": "Springer.",
+        "ISBN": "978-1-4612-0883-9."
+      },
+      {
+        "Autor": "Quarteroni, A., & Valli, A.",
+        "Título": "Numerical approximation of partial differential equations.",
+        "Editorial": "Springer.",
+        "ISBN": "978-3-540-85268-1."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Dos sesiones de cátedra y una ayudantía por semana. Las clases incluyen exposición teórica y actividades participativas.",
+    "Mecanismos de Evaluación": "Al menos dos y máximo tres certámenes. Además, tareas, controles y exposiciones.",
+    "Ponderaciones": {
+      "Certámenes (C)": "Al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a·C + b·T, con 0.6 < a < 0.8 y 0.2 < b < 0.4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación es 70 en escala 0–100."
+  }
+},
+  {
+  "Asignatura": "Interacción Fluido Estructura",
+  "Sigla": "MAT-433",
+  "Información General": {
+    "Nombre de la linea de investigación": "Análisis Numérico",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Análisis Numérico. En ella, el estudiante conocerá los fundamentos matemáticos y numéricos para la resolución de problemas de modelación de las vibraciones de estructuras elastodinámicas acopladas con fluidos, desarrollando habilidades para implementar y analizar métodos numéricos asociados.",
+    "Ramos": "MAT-433: Interacción Fluido Estructura",
+    "Pre-requisitos": "MAT-419 (Métodos Numéricos para Ecuaciones Diferenciales Parciales). Los resultados de aprendizaje previos incluyen: distinguir los métodos de diferencias finitas y elementos finitos para la resolución numérica de problemas de EDPs, y construir formulaciones variacionales que argumenten la existencia y unicidad de soluciones.",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+      "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+      "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+      "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+      "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+      "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+      "Identifica problemas relevantes en la temática de investigación.",
+      "Discute con otros temáticas de su disciplina, pudiendo participar en equipos de investigación, usando argumentos científicos.",
+      "Propone soluciones a problemas que surgen de su quehacer científico con un enfoque científico disciplinar o multidisciplinar.",
+      "Explica efectivamente el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+    ],
+    "Específicas Disciplinares": [
+      "Revisa formulaciones matemáticas para problemas de interacción entre fluido y estructuras elásticas.",
+      "Desarrolla metodologías numéricas para el estudio de métodos en problemas de autovalores.",
+      "Formula métodos numéricos para resolver problemas de vibraciones de fluidos acústicos y estructuras elásticas.",
+      "Construye soluciones de problemas tipo de vibraciones (acústicas, estructuras e interacción entre ambas)."
+    ]
+  },
+  "Contenidos principales": [
+    "Deformación y vibraciones de una membrana.",
+    "Método de elementos finitos. Implementación computacional.",
+    "Problemas de autovalores generalizados K ζ x = λ M x. Resolución numérica.",
+    "Análisis Numérico de problemas de autovalores. Convergencia.",
+    "Análisis dinámico de estructuras elásticas. Vibraciones en sólidos.",
+    "Ecuaciones de la Acústica. Vibraciones en fluidos.",
+    "Análisis dinámico de sistemas con interacción fluido-estructura. Distintas formulaciones.",
+    "Aplicaciones: propagación de ruidos; oleaje de líquidos en recipientes.",
+    "Solución numérica de problemas con interacción fluido-estructura."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Sun, J., & Zhou, A.",
+        "Título": "Finite element methods for eigenvalue problems.",
+        "Editorial": "Chapman and Hall/CRC.",
+        "ISBN": "9-781-48-225-464-8."
+      },
+      {
+        "Autor": "Morand, H. J. P., & Ohayon, R.",
+        "Título": "Fluid structure interaction- Applied numerical methods.",
+        "Editorial": "J. Wiley & Son.",
+        "ISBN": "9-780-47-194-459-1."
+      },
+      {
+        "Autor": "Bathe, K. J.",
+        "Título": "Finite element procedures.",
+        "Editorial": "Klaus-Jurgen Bathe.",
+        "ISBN": "978-0-9790049-5-7."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Quarteroni, A., & Quarteroni, S.",
+        "Título": "Numerical models for differential problems.",
+        "Editorial": "Milan: Springer.",
+        "ISBN": "978-88-470-5522-3."
+      },
+      {
+        "Autor": "Bermúdez, A., Durán, R., Muschietti, M. A., Rodríguez, R., & Solomin, J.",
+        "Título": "Finite element vibration analysis of fluid-solid systems without spurious modes.",
+        "Editorial": "SIAM Journal on Numerical Analysis, 32(4), 1280-1295.",
+        "DOI": "10.1137/0732059."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Dos sesiones de cátedra y una ayudantía por semana. Al menos un 70% de las clases lectivas se centran en la exposición sistemática de los contenidos teóricos por parte del profesor y la participación de los estudiantes. Se combina con metodologías participativas (trabajo grupal, tareas, estudio independiente, proyectos de investigación), las cuales no pueden superar el 30% de las clases lectivas del semestre.",
+    "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+    "Ponderaciones": {
+      "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a · C + b · T con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+  }
+},
+{
+  "Asignatura": "Teoría de Semigrupos de Operadores",
+  "Sigla": "MAT-412",
+  "Información General": {
+    "Nombre de la linea de investigación": "Control de EDP y Problemas Inversos",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Control de Ecuaciones Diferenciales Parciales y Problemas Inversos. El estudiante comprenderá los conceptos básicos de la teoría de semigrupos en espacios de Hilbert. Tales herramientas le permitirán resolver problemas de evolución de la Física, Matemática e Ingeniería.",
+    "Ramos": "MAT-412: Teoría de Semigrupos de Operadores",
+    "Pre-requisitos": "MAT-406 (Análisis Funcional) y MAT-418 (Teoría Avanzada de Ecuaciones Diferenciales Parciales).",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+      "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+      "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+      "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+      "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+      "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+      "Identifica problemas relevantes en la temática de investigación.",
+      "Propone soluciones a problemas que surgen de su quehacer científico con un enfoque disciplinar o multidisciplinar.",
+      "Explica efectivamente el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+    ],
+    "Específicas Disciplinares": [
+      "Identifica las principales herramientas y enfoques usados en teoría de semigrupo.",
+      "Discrimina las limitaciones y fortalezas en la teoría de semigrupo.",
+      "Construye el marco funcional para establecer la buena colocación de problemas de evolución en EDP."
+    ]
+  },
+  "Contenidos principales": [
+    "Teoría general de semigrupos de operadores lineales: Semigrupos uniforme y fuertemente continuos. Operadores disipativos y cuasi-disipativos. Generador infinitesimal.",
+    "Problemas de evolución: ecuaciones disipativas: Problema de Cauchy. Teoremas de Lumer-Philips, Hille-Yosida. Grupos unitarios y el Teorema de Stone.",
+    "Aplicaciones: Ecuación del calor. Ecuación de Schrödinger. Ecuaciones disipativas no lineales. Comportamiento asintótico y puntos de equilibrio."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Cazenave, T., Braides, A., & Haraux, A.",
+        "Título": "An introduction to semilinear evolution equations (Vol. 13).",
+        "Editorial": "Oxford University Press on Demand.",
+        "ISBN": "978-0198502777."
+      },
+      {
+        "Autor": "Pazy, A.",
+        "Título": "Semigroups of linear operators and applications to partial differential equations (Vol. 44).",
+        "Editorial": "Springer Science & Business Media.",
+        "ISBN": "978-1-4612-5561-1."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Dautray, R., & Lions, J. L.",
+        "Título": "Evolution problems I, volume 5 of Mathematical analysis and numerical methods for science and technology.",
+        "ISBN": "9783540661016."
+      },
+      {
+        "Autor": "Brezis, H.",
+        "Título": "Analyse Fonctionnelle.",
+        "Editorial": "edition Masson.",
+        "ISBN": "9782225771989."
+      },
+      {
+        "Autor": "Pazy, A.",
+        "Título": "Semigroups of linear operators and applications to partial differential equations (Vol. 44).",
+        "Editorial": "Springer Science & Business Media.",
+        "ISBN": "978-1-4612-5561-1."
+      },
+      {
+        "Autor": "Hille, E., & Phillips, R. S.",
+        "Título": "Functional analysis and semi-groups (Vol. 31).",
+        "Editorial": "American Mathematical Soc.",
+        "ISBN": "978-0821810316."
+      },
+      {
+        "Autor": "Brézis, H.",
+        "Título": "Opérateurs maximaux monotones et semi-groupes de contractions dans les espaces de Hilbert.",
+        "Editorial": "North-Holland publ., Amsterdam.",
+        "ISBN": "978-0444104304."
+      },
+      {
+        "Autor": "Miyadera, I.",
+        "Título": "Nonlinear semigroups (Vol. 109).",
+        "Editorial": "American Mathematical Soc.",
+        "ISBN": "978-1-4704-4520-1."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Exposiciones orales. Tareas. Certámenes.",
+    "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+    "Ponderaciones": {
+      "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+  }
+},
+{
+  "Asignatura": "Problemas Inversos",
+  "Sigla": "MAT-434",
+  "Información General": {
+    "Nombre de la linea de investigación": "Control de EDP y Problemas Inversos",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Control de EDP y Problemas Inversos. El estudiante adquiere las principales técnicas matemáticas de Problemas Inversos: se estudian la unicidad, estabilidad y reconstrucción, y se utiliza teoría básica de EDPs y de los espacios de Sobolev, desarrollando habilidades para estudiar problemas consistentes en recuperar algún elemento de una ecuación diferencial a partir del conocimiento parcial de soluciones.",
+    "Ramos": "MAT-434: Problemas Inversos",
+    "Pre-requisitos": "MAT-406 (Análisis Funcional) y MAT-418 (Teoría Avanzada de Ecuaciones Diferenciales Parciales).",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+      "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+      "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+      "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+      "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+      "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+      "Identifica problemas relevantes en la temática de investigación.",
+      "Propone soluciones a problemas que surgen de su quehacer científico con un enfoque científico disciplinar o multidisciplinar.",
+      "Explica el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+    ],
+    "Específicas Disciplinares": [
+      "Identifica las etapas asociadas al estudio de un problema inverso en ecuaciones en derivadas parciales: identificabilidad, estabilidad, caracterización y reconstrucción.",
+      "Distingue las principales herramientas utilizadas para la identificabilidad, estabilidad y reconstrucción numérica en problemas inversos asociados a ecuaciones diferenciales parciales.",
+      "Analiza desigualdades de Carleman para operadores diferenciales, en el contexto de problemas inversos."
+    ]
+  }
+},
+
+    {
+    "Asignatura": "Control de Ecuaciones Diferenciales Parciales",
+    "Sigla": "MAT-436",
+    "Información General": {
+      "Nombre de la linea de investigación": "Control de EDP y Problemas Inversos",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Control de EDP y Problemas Inversos. El estudiante adquiere las principales técnicas matemáticas para estudiar problemas de **controlabilidad de ecuaciones diferenciales parciales en evolución**, desarrollando habilidades para aplicar conocimientos del análisis funcional y de la teoría básica de ecuaciones diferenciales parciales en problemas ligados a la ingeniería.",
+      "Ramos": "MAT-436: Control de Ecuaciones Diferenciales Parciales",
+      "Pre-requisitos": "MAT-406 (Análisis Funcional) y MAT-418 (Teoría Avanzada de Ecuaciones Diferenciales Parciales).",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento.",
+        "Conformar de manera proactiva equipos de investigación desde la perspectiva de su línea de especialización para la ejecución de proyectos disciplinares o multidisciplinares."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Identifica problemas relevantes en la temática de investigación.",
+        "Propone soluciones a problemas que surgen de su quehacer científico con un enfoque científico disciplinar o multidisciplinar.",
+        "Explica el conocimiento de su disciplina al público en general usando un lenguaje de acuerdo al contexto."
+      ],
+      "Específicas Disciplinares": [
+        "Determina la controlabilidad exacta, aproximada y a cero para un problema de control de ecuaciones diferenciales parciales.",
+        "Identifica las principales herramientas y enfoques usados en teoría del control de ecuaciones diferenciales parciales.",
+        "Discrimina las limitaciones y fortalezas de los distintos enfoques de análisis para el estudio de un problema de control.",
+        "Combina distintos métodos de la teoría de control para estudiar sistemas modelados por ecuaciones en derivadas parciales."
+      ]
+    },
+    "Contenidos principales": [
+      "Introducción.",
+      "Conceptos preliminares: Control interno y control frontera; Tipos de controlabilidad; Estabilidad y estabilización; Caracterización por dualidad del control exacto, del control aproximado y del control a cero.",
+      "Control exacto de la ecuación de transporte: Método directo; Método por dualidad.",
+      "Controlabilidad exacta de la ecuación de ondas: Método de los multiplicadores; Método de Fourier y Desigualdades de Ingham.",
+      "Controlabilidad aproximada y a cero de la ecuación del calor: Principios de continuación única; Método de momentos; Desigualdades de Carleman globales.",
+      "Estabilización de EDP: Estabilización a partir de la observabilidad para la ecuación de ondas; Método de amortiguamiento para la ecuación de ondas; Método de localización de polos para la ecuación del calor; Método de Backstepping para las ecuaciones del calor y de ondas."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Coron, J. M.",
+          "Título": "Control and nonlinearity (No. 136).",
+          "Editorial": "American Mathematical Soc.",
+          "ISBN": "978-0-8218-4918-7."
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Micu, S., & Zuazua, E.",
+          "Título": "An introduction to the controllability of partial differential equations. Quelques questions de théorie du contrôle. Sari, T., ed., Collection Travaux en Cours Hermann."
+        },
+        {
+          "Autor": "Avdonin, I., Avdonin, S. A., & Ivanov, S. A.",
+          "Título": "Families of exponentials: the method of moments in controllability problems for distributed parameter systems.",
+          "Editorial": "Cambridge University Press.",
+          "ISBN": "978-0521144957."
+        },
+        {
+          "Autor": "Lions, J.L",
+          "Título": "Contrôlabilité exacte, perturbations et stabilisation de systèmes distribués, Vol. 1 & 2.",
+          "Editorial": "Masson, RMA, Paris.",
+          "ISBN": "978-94-010-7351-6."
+        },
+        {
+          "Autor": "Komornik, V., & Loreti, P.",
+          "Título": "Fourier series in control theory.",
+          "Editorial": "Springer Science & Business Media.",
+          "ISBN": "978-0-387-27408-9."
+        },
+        {
+          "Autor": "Krstic, M., & Smyshlyaev, A.",
+          "Título": "Boundary control of PDES: A course on backstepping designs (Vol. 16).",
+          "Editorial": "Siam.",
+          "ISBN": "978-0898716-50-4."
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Exposiciones. Grupos de trabajo. Investigación.",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4.",
+        "Requisito Mínimo de Componentes": "Para aprobar se requiere que la nota de certámenes y de las otras actividades sea mayor o igual a 55."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+    }
+  },
+  {
+    "Asignatura": "Series de Tiempo",
+    "Sigla": "MAT-417",
+    "Información General": {
+      "Nombre de la linea de investigación": "Probabilidad y Estadística",
+      "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Probabilidad y Estadística. El estudiante conocerá los modelos básicos usados en **series de tiempo univariadas y multivariadas** y sus propiedades bajo el supuesto de estacionariedad y cuando esta hipótesis es relajada. Asimismo, identificará los métodos de estimación, selección y predicción de los modelos estudiados, desarrollando habilidades para implementar computacionalmente las técnicas aprendidas en el curso.",
+      "Ramos": "MAT-417: Series de Tiempo",
+      "Pre-requisitos": "No tiene requisitos.",
+      "Académicos": ""
+    },
+    "Competencias del Perfil del Graduado": {
+      "Genéricas Transversales": [
+        "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+        "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina.",
+        "Desarrollar actividades de investigación, bajo la supervisión de un experto, en el ámbito de su línea de especialización para generar nuevo conocimiento."
+      ],
+      "Específicas Disciplinares": [
+        "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada.",
+        "Combinar teorías y métodos avanzados en el ámbito de su línea de especialización u otro para demostrar resultados matemáticos originales."
+      ]
+    },
+    "Resultados de Aprendizaje": {
+      "Genéricas Transversales": [
+        "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+        "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+        "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas.",
+        "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones.",
+        "Comunica los resultados de su investigación de manera oral y/o escrita, de manera efectiva, a través productos científicos.",
+        "Analiza el trabajo de investigación propio y de otros, crítica y contextualmente.",
+        "Identifica problemas relevantes en la temática de investigación."
+      ],
+      "Específicas Disciplinares": [
+        "Construye modelos de series de tiempo, determinando parámetros de modelo e identificando órdenes de los procesos.",
+        "Interpreta estimaciones y analiza propiedades de modelos propuestos seleccionando procedimientos óptimos.",
+        "Combina herramientas de estimación para proponer procedimientos de inferencia para contextos de mayor generalidad.",
+        "Identifica procedimientos óptimos para desarrollar predicción."
+      ]
+    },
+    "Contenidos principales": [
+      "Modelos Ingenuos: Suavizamiento exponencial, método de descomposición, método de Holt-Winters, filtros lineales y filtros de medias móviles. Aplicaciones.",
+      "Modelos ARIMA: Procesos estacionarios, procesos lineales generales, teorema de descomposición de Wold, procesos autorregresivos, de media móvil y ARMA. Estimación, ecuaciones de Yule-Walker, método de máxima verosimilitud, ecuaciones de predicción, algoritmo de Durbin-Levinson, intervalos de confianza para predicciones. Diferenciación y modelos ARIMA estacionales.",
+      "Modelamiento de Procesos ARIMA: Identificación vía FAC y FACP, selección de modelos, coeficientes AIC y BIC, validación cruzada y predicción hacia atrás. Tratamiento de datos faltantes y técnicas de imputación.",
+      "Análisis Espectral: Transformada de Fourier y modelos de regresión armónica. La densidad espectral, transformada discreta de Fourier, el periodograma, estimación de frecuencias ocultas, estimación de componentes estacionales. Estimación no paramétrica del espectro, espectro cruzado, extracción de señales y filtros óptimos.",
+      "Series de Tiempo Multivariadas: Modelos multivariados, estimación de la media y de la función de covarianza, test de independencia entre series estacionarias, fórmula de Bartlet, procesos ARMA multivariados, estimación y predicción, cointegración en series de tiempo, codispersión y comovimiento de series multivariadas. Aplicaciones a series de tiempo financieras."
+    ],
+    "Recursos para el aprendizaje": {
+      "Bibliografía Básica": [
+        {
+          "Autor": "Shumway, R.H., & Stoffer, D.S.",
+          "Título": "Time Series Analysis and Its Applications. With R Examples.",
+          "Editorial": "Springer.",
+          "ISBN": "978-3-319-52452-8."
+        }
+      ],
+      "Bibliografía Recomendada": [
+        {
+          "Autor": "Brockwell, P.J., & Davis, R.A.",
+          "Título": "Introduction to Time Series and Forecasting.",
+          "Editorial": "Springer.",
+          "ISBN": "978-1-4757-7750-5."
+        },
+        {
+          "Autor": "Fan, J., & Yao, Q.",
+          "Título": "Nonlinear Time Series: Nonparametrics and Parametric Methods.",
+          "Editorial": "Springer.",
+          "ISBN": "978-0-387-69395-8."
+        }
+      ]
+    },
+    "Evaluación de los resultados de aprendizaje": {
+      "Metodología de Enseñanza-Aprendizaje": "Clases expositivas, desarrollo de tareas y guías de ejercicios. Exposiciones, y uso de software de modelación.",
+      "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+      "Ponderaciones": {
+        "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+        "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+        "Fórmula de Nota Final": "Nota Final =a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+      },
+      "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+    }
+  },
+
+  {
+  "Asignatura": "Teoría de Probabilidades",
+  "Sigla": "MAT-431",
+  "Información General": {
+    "Nombre de la linea de investigación": "Probabilidad y Estadística",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación especializada en la línea de Probabilidades. El estudiante adquiere las principales herramientas de la teoría de probabilidades para modelar fenómenos aleatorios. Aplica conocimientos de teoría de la medida, adquiridos previamente. Al término de este ramo, el estudiante utiliza procesos estocásticos para representar magnitudes aleatorias que evolucionan en el tiempo.",
+    "Ramos": "MAT-431: Teoría de Probabilidades",
+    "Pre-requisitos": "No tiene requisitos.",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad.",
+      "Comunicar metodologías, resultados y conclusiones, de manera efectiva, en forma oral y escrita, para contribuir al desarrollo de la disciplina."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Explica el conocimiento de su disciplina a sus pares y público en general, redactando informes y/o presentaciones."
+    ],
+    "Específicas Disciplinares": [
+      "Identifica las técnicas básicas probabilidades para describir comportamientos aleatorios."
+    ]
+  },
+  "Contenidos principales": [
+    "Espacios de probabilidad: Ejemplos (Esquema de Bernoulli, medida de conteo, medida geométrica (medida de Lebesgue), distribuciones (clasificación en singulares y absolutamente continuas como aplicación de teoría de medida)).",
+    "Variables aleatorias: Ejemplos, independencia de álgebras, independencia de variables aleatorias, ejemplo: camino aleatorio, variables aleatorias multidimensionales, composición con funciones, algunas desigualdades.",
+    "Probabilidad y esperanza condicionales dado una σ-álgebra, esperanza condicional como proyección, ejemplos: función de regresión, martingala discreta, cadena de Markov.",
+    "Ley de Kolmogorov, tipos de convergencia de sucesiones de variables aleatorias, teorema del límite central para variables independientes.",
+    "Procesos estacionarios.",
+    "El movimiento Browniano como límite de caminos aleatorios.",
+    "Momentos, continuidad de las trayectorias del movimiento Browniano.",
+    "Tiempos Markovianos, cambio de tiempo para el movimiento Browniano.",
+    "Principio de Duhamel, submartingalas, procesos recurrentes y transientes.",
+    "Procesos condicionados, puente Browniano.",
+    "Procesos de Poisson."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Durret, R.",
+        "Título": "Probability: Theory and Examples.",
+        "Editorial": "Cambridge University Press, Cambridge.",
+        "ISBN": "978-0521765398."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Arnold, L.",
+        "Título": "Stochastic differential equations: theory and applications.",
+        "Editorial": "Wiley.",
+        "ISBN": "978-0471033592."
+      },
+      {
+        "Autor": "Billingsley, P.",
+        "Título": "Probability and measure.",
+        "Editorial": "Wiley, New York.",
+        "ISBN": "978-1118122372."
+      },
+      {
+        "Autor": "Cox, D., Miller, H.",
+        "Título": "The theory of stochastic processes.",
+        "Editorial": "Methuen, London.",
+        "ISBN": "978-0412151705."
+      },
+      {
+        "Autor": "Feller, W.",
+        "Título": "An introduction to probability theory and its applications.",
+        "Editorial": "Wiley, New York.",
+        "ISBN": "978-0-471-25709-7."
+      },
+      {
+        "Autor": "Karlin, S., Taylor, H.",
+        "Título": "A first course in stochastic processes. 2nd Ed.",
+        "Editorial": "Academic Press, New York.",
+        "ISBN": "978-0123985521."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Clases expositivas, desarrollo de tareas y guías de ejercicios. Exposiciones, y grupos de trabajo e investigación.",
+    "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+    "Ponderaciones": {
+      "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+  }
+},
+{
+  "Asignatura": "Inferencia Estadística",
+  "Sigla": "MAT-460",
+  "Información General": {
+    "Nombre de la linea de investigación": "Probabilidad y Estadística",
+    "Descripción": "Esta asignatura pertenece al ámbito de formación general. En ella, el estudiante adquiere los conceptos fundamentales de inferencia estadística, desarrollando habilidades para realizar análisis de información obtenida bajo incertidumbre como procedimientos de estimación y test de hipótesis.",
+    "Ramos": "MAT-460: Inferencia Estadística",
+    "Pre-requisitos": "No tiene requisitos.",
+    "Académicos": ""
+  },
+  "Competencias del Perfil del Graduado": {
+    "Genéricas Transversales": [
+      "Actuar con altos estándares de responsabilidad profesional y ética en el ejercicio de las actividades de investigación para beneficio de la sociedad."
+    ],
+    "Específicas Disciplinares": [
+      "Identificar herramientas y técnicas matemáticas desde una perspectiva propia a su línea de especialización u otra para resolver problemas en matemática pura o aplicada."
+    ]
+  },
+  "Resultados de Aprendizaje": {
+    "Genéricas Transversales": [
+      "Referencia el trabajo científico de otros, en la elaboración de documentos académicos e investigativos.",
+      "Actúa con honestidad y autorregulación en su quehacer académico y profesional.",
+      "Entrega sus informes y/o tareas encomendadas, de manera oportuna, siguiendo las indicaciones y estructura solicitada.",
+      "Presenta evidencia verificable de la originalidad de sus reportes escritos, en los informes o tareas desarrolladas."
+    ],
+    "Específicas Disciplinares": [
+      "Combina herramientas de estimación para proponer procedimientos de inferencia para contextos de mayor generalidad.",
+      "Interpreta estimaciones y analiza propiedades de métodos de estimación para seleccionar procedimientos óptimales.",
+      "Identifica procedimientos óptimos para desarrollar test de hipótesis.",
+      "Generaliza resultados clásicos a funciones de estimación, usando herramientas de inferencia estadística."
+    ]
+  },
+  "Contenidos principales": [
+    "Definición de modelo: Modelos paramétricos y no-paramétricos. Teoría de decisiones, función de decisión, función de riesgo, admisibilidad, decisión de Bayes, función de verosimilitud y distribución a posteriori.",
+    "Modelos estadísticos: Familia exponencial, parametrización natural y propiedades generales.",
+    "Estimación: Suficiencia y completitud. Estimadores insesgados de varianza mínima, eficiencia de estimadores insesgados. Información de Fisher.",
+    "Métodos de estimación puntual: Método de los momentos, método de mínimos cuadrados, método de máxima verosimilitud y estimadores de Bayes. Propiedades optímales y distribución asintótica de los estimadores.",
+    "Conjuntos de confianza: Definición, construcción del conjunto de confianza. Método de cantidad pivotal e intervalos de confianza asintóticos. Regiones de confianza.",
+    "Test de hipótesis: Test y teoría de decisiones, test aleatorio y no-aleatorio, lema de Neyman-Pearson, test insesgados, test uniformemente más potente, test de razón de verosimilitudes y sus propiedades asintóticas, alternativas asintóticas al test de razón de verosimilitudes."
+  ],
+  "Recursos para el aprendizaje": {
+    "Bibliografía Básica": [
+      {
+        "Autor": "Casella, G., Berger, R.L.",
+        "Título": "Statistical Inference, 2nd Ed.",
+        "Editorial": "Duxbury.",
+        "ISBN": "978-05-342-4312-8."
+      }
+    ],
+    "Bibliografía Recomendada": [
+      {
+        "Autor": "Bickel, P.J., Doksum, K.A.",
+        "Título": "Mathematical Statistics: Basic ideas and selected topics.",
+        "Editorial": "Prentice Hall.",
+        "ISBN": "978-14-987-2380-0."
+      },
+      {
+        "Autor": "Knight, K.",
+        "Título": "Mathematical Statistics.",
+        "Editorial": "Chapman & Hall.",
+        "ISBN": "978-15-848-8178-0."
+      },
+      {
+        "Autor": "Mood, A.M., Graybill, F.A., Boes, D.C.",
+        "Título": "Introduction to the Theory of Statistics, 3rd Ed.",
+        "Editorial": "McGraw-Hill.",
+        "ISBN": "978-00-708-5465-9."
+      },
+      {
+        "Autor": "Wasserman, L.",
+        "Título": "All of Statistics: A concise course in statistical inference.",
+        "Editorial": "Springer.",
+        "ISBN": "978-0-387-40272-7."
+      }
+    ]
+  },
+  "Evaluación de los resultados de aprendizaje": {
+    "Metodología de Enseñanza-Aprendizaje": "Clases expositivas, desarrollo de tareas y guías de ejercicios. Exposiciones, y uso de software de modelación.",
+    "Mecanismos de Evaluación": "Se deben aplicar al menos dos y un máximo de tres certámenes. Se deberán realizar otras actividades de evaluación (tareas, controles y/o exposiciones).",
+    "Ponderaciones": {
+      "Certámenes (C)": "Ponderación de al menos 60% de la nota final.",
+      "Otras Actividades (T)": "Ponderación de al menos 20% de la nota final.",
+      "Fórmula de Nota Final": "Nota Final = a · C + b · T, con 0,6 < a < 0,8 y 0,2 < b < 0,4."
+    },
+    "Requisito de Aprobación": "La nota mínima de aprobación de cada asignatura de los programas de estudio de posgrado es 70 en escala de 0-100."
+  }
+}
+
+]
