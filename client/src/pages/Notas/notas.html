@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas de Investigación | Red For U</title>
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/calculadora.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAV -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>RedForU</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../Malla.html">Malla Interactiva</a></li>
+                <li><a href="notas.html">Notas</a></li>
+                <li><a href="electivos.html">Electivos</a></li>
+                <li><a href="lineas.html">Líneas de Investigación</a></li>
+                <li><a href="repositorios.html">Repositorios</a></li>
+                <li><a href="guias.html">Guías</a></li>
+                <li><a href="Sala.html">Sala Matemática</a></li>
+                <li><a href="CEEMAT.html">CEEMAT</a></li>
+                
+                <li class="cart-link"><a href="Perfil.html"> Perfil </a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    
+<section class="hero-slider2">   
+    <div class="hero-slide active">
+        
+        <h2>Notas</h2>
+        
+        <p>Aquí podrás dejar registro de tus notas del semestre y disponer de una calculadora para facilitar la planificación académica durante el semestre.</p>
+    </div>
+</section> 
+
+
+
+<section class="notas-calculadora">
+    <p>   &nbsp;  </p>
+    <h2 class="section-subtitle-">Calculadora de Notas (0-100)</h2>
+    <p>   &nbsp;  </p>
+    
+    <p class="parrafo-centrado">Ingresa tus notas (0-100) y sus respectivos porcentajes para calcular tu promedio.</p>
+    <p>   &nbsp;  </p>
+    
+    <div class="contenedor-dinamico" id="contenedorNotas">
+        <div class="fila-nota">
+            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
+            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
+            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
+        </div>
+        <div class="fila-nota">
+            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
+            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
+            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
+        </div>
+        <div class="fila-nota">
+            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
+            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
+            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
+        </div>
+    </div>
+
+    <div class="controles-accion">
+        <button id="btnLimpiar" class="btn-accion secondary">Limpiar</button>
+        <button id="btnAgregarNota" class="btn-agregar">+</button>
+    </div>
+
+    <div class="contenedor-resultados">
+        <h2>Promedio Actual</h2>
+        <div class="cajas-resultado">
+            <div>
+                <p>Promedio Ponderado</p>
+                <div class="valor-resultado" id="promedioActual">0</div>
+            </div>
+            </div>
+    </div>
+</section>
+<script src="script.js"></script>

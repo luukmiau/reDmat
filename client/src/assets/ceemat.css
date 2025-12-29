@@ -1,0 +1,129 @@
+:root {
+            --rojo-usm: #9e0e1c;  /* Ajusta este color al rojo exacto de tu CSS */
+        }
+
+        .ceemat-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Título con acento en rojo */
+        .main-title-container {
+            border-left: 5px solid var(--rojo-usm);
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .main-title-container h1 {
+            font-size: 2.2rem;
+            margin: 0;
+            color: #222;
+        }
+
+        .description-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 50px;
+            max-width: 900px;
+        }
+
+        /* Títulos de sección (años) */
+        .year-header {
+            background-color: var(--rojo-usm);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 40px 0 20px 0;
+            display: inline-block;
+        }
+
+        .sub-group-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--rojo-usm);
+            text-transform: uppercase;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin: 30px 0 20px 0;
+        }
+
+        /* Grid de 4 columnas */
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        /* Tarjeta de miembro */
+        .member-card {
+            background: #fff;
+            transition: transform 0.2s;
+        }
+
+        .member-card:hover {
+            transform: scale(1.02);
+        }
+
+        /* Fotos Cuadradas con borde sutil */
+        .photo-container {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            border: 1px solid #eee;
+            margin-bottom: 12px;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #222;
+            margin-bottom: 2px;
+        }
+
+        .member-role {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+
+        .member-email {
+            font-size: 0.8rem;
+            color: var(--rojo-usm);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .member-extra {
+            font-size: 0.75rem;
+            color: #888;
+            line-height: 1.4;
+            background: #f9f9f9;
+          /*  padding: 5px;*/
+            border-radius: 3px;
+        }
+
+        /* Botón de volver con estética de tu sitio */
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--rojo-usm);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) { .members-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 768px) { .members-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 480px) { .members-grid { grid-template-columns: 1fr; } }

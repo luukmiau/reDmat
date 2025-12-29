@@ -1,0 +1,70 @@
+
+
+.acordeon-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: var(--shadow-light);
+}
+
+.acordeon-toggle {
+    display: none; 
+}
+
+.acordeon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header:hover {
+    background-color: #f1f1f1;
+}
+
+.acordeon-icon {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    transition: transform 0.3s;
+}
+
+/* Ocultar el contenido por defecto */
+.acordeon-content {
+    max-height: 0;
+    padding: 0 20px;
+    background-color: white;
+    color: var(--text-color);
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+
+/* Separar y mover a la derecha el ul */
+.acordeon-content ul {
+    margin-bottom: 15px; 
+    margin-top: 15px; 
+    margin-left: 25px; 
+}
+
+/* Separación general de párrafos */
+.acordeon-content p {
+    margin-bottom: 15px;
+}
+
+/* Estado Desplegado (al marcar el checkbox) */
+.acordeon-toggle:checked + .acordeon-header .acordeon-icon {
+    transform: rotate(45deg); 
+    color: var(--secondary-color);
+}
+
+.acordeon-toggle:checked ~ .acordeon-content {
+    max-height: 600px; 
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
