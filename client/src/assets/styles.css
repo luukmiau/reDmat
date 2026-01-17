@@ -390,3 +390,37 @@ body {
 
 
 
+
+
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;       /* Distancia desde abajo */
+    right: 20px;         /* Distancia desde la derecha */
+    width: 150px;        /* Tamaño del botón */
+    height: 150px;
+    background-color: #9e0e1c; /* Rojo llamativo */
+    color: white;
+    border-radius: 50%; /* Lo hace circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;      /* Asegura que esté por encima de todo */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.floating-btn:hover {
+    transform: scale(1.1); /* Se agranda un poco */
+    background-color: #c62828; /* Rojo más oscuro */
+}
+
+/* Opcional: Texto pequeño dentro o estilo de icono */
+.btn-text {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}

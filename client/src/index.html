@@ -6,6 +6,8 @@
     <title>Red For U</title>
     <link rel="stylesheet" href="assets/styles.css"> 
     <link rel="stylesheet" href="assets/acordion.css"> 
+    <link rel="stylesheet" href="assets/contenedor.css">
+    
 </head>
 <body>
 
@@ -16,16 +18,12 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                
-                <li><a href="pages/Notas/notas.html">Herramientas</a></li>
-                
+                <li><a href="pages/Herramientas.html">Herramientas</a></li>   
                 <li><a href="pages/lineas.html">Líneas de Investigación</a></li>
                 <li><a href="pages/repositorios.html">Repositorios</a></li>
-                <li><a href="pages/Notas/notas.html">Herramientas</a></li>
                 <li><a href="pages/Sala.html">Sala Matemática</a></li>
-                <li><a href="pages/CEEMAT.html">CEEMAT</a></li>
-                
-                <li class="cart-link"><a href="Perfil.html"> RedMat </a></li>
+                <li><a href="pages/Comunidad.html">Comunidad</a></li>
+                <li class="cart-link"><a href="RedMat.html"> RedMat </a></li>
             </ul>
         </nav>
     </header>
@@ -66,24 +64,71 @@
     <!-- Controles -->
     <button class="hero-control prev">‹</button>
     <button class="hero-control next">›</button>
-
 </section>
 
 
-       
-    <h3 class="section-title">Malla interactiva</h3>
+
+
+
+
+
+<hr style="margin: 40px 0; border: 0; border-top: 1px solid #ddd;">
+<h3 class="section-subtitle-" style="text-align: center;">Explora el Sitio</h3>
+        
+<div class="ramos-grid indice-personalizado">
+    <div class="ramo-card">
+        <div class="ramo-bg" style="background-image: url('https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="ramo-content">
+            <h4>Herramientas</h4>
+            <p class="ramo-descripcion">Calculadoras de notas, plantillas para tener registro de notas y acceso a las mallas interactivas.</p>
+            <a href="pages/Notas/notas.html" class="btn-ver-ramo">Ver más detalle</a>
+        </div>
+    </div>
+
+    <div class="ramo-card">
+        <div class="ramo-bg" style="background-image: url('https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="ramo-content">
+            <h4>Líneas de Investigación</h4>
+            <p class="ramo-descripcion">Conoce las áreas de desarrollo de la Ingeniería Matemática y sus electivos asociados.</p>
+            <a href="pages/lineas.html" class="btn-ver-ramo">Ver más detalle</a>
+        </div>
+    </div>
+
+    <div class="ramo-card">
+        <div class="ramo-bg" style="background-image: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="ramo-content">
+            <h4>Repositorios</h4>
+            <p class="ramo-descripcion">Banco histórico de pruebas, certámenes antiguos y guías de estudio organizadas por ramo.</p>
+            <a href="pages/repositorios.html" class="btn-ver-ramo">Ver más detalle</a>
+        </div>
+    </div>
+
+    <div class="ramo-card">
+        <div class="ramo-bg" style="background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="ramo-content">
+            <h4>Sala Matemática</h4>
+            <p class="ramo-descripcion">Consulta disponibilidad de nuestra sala y eventos que se realizan en ella.</p>
+            <a href="pages/Sala.html" class="btn-ver-ramo">Ver más detalle</a>
+        </div>
+    </div>
+
+    <div class="ramo-card">
+        <div class="ramo-bg" style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="ramo-content">
+            <h4>Comunidad</h4>
+            <p class="ramo-descripcion">Espacio para la Red de Estudiantes, eventos < y noticias del CEEMAT.</p>
+            <a href="pages/Comunidad.html" class="btn-ver-ramo">Ver más detalle</a>
+        </div>
+    </div>
+</div>
+
+
+
+
 
     
 
-</section>
-
-
-
-
-
-
-
-<section class="electivos-container">
+ <section class="electivos-container">
     <h3 class="section-title">Electivos dictados este año</h3>
 
     <div class="electivos-listas">
@@ -95,7 +140,8 @@
             <ul class="electivos-lista">
                 <li class="electivo-item">
                    <span class="electivo-nombre">Sistemas Dinámicos</span> 
-                   <a href="pages/Ramos_Electivos/SISTEMAS/sist_dina.html" class="electivo-link">Ver</a> 
+                   <a href="pages/Ramos_Electivos/Sist-Din/" class="electivo-link">Ver</a> 
+                   <!-- FALTA CONECTAR EL RAMO DE SISTEMAS DINAMICOS PQ AHORA MISMO ESTA EL DE SISTEMAS Y CAOS -->
                    <span class="electivo-linea">Sistemas Dinámicos</span>
                 </li>
                 <li class="electivo-item">
@@ -128,13 +174,13 @@
                 <li class="electivo-item">
                     <span class="electivo-nombre">Topología</span>
                     <a href="pages/Ramos_Electivos/ALGEBRA/topologia.html" class="electivo-link">Ver</a>
-                    <span class="electivo-linea">Algebra y geometría</span>
+                    <span class="electivo-linea">Algebra y Geometría</span>
                     
                 </li>
 
                 <li class="electivo-item">
                     <span class="electivo-nombre">Problemas Inversos</span>
-                    <a href="pages/Ramos_Electivos/CONTROL/Problem_inverso.html class="electivo-link">Ver</a>
+                    <a href="pages/Ramos_Electivos/CONTROL/Problem_inverso.html" class="electivo-link">Ver</a>
                     <span class="electivo-linea">Control de EDP y Problemas Inversos</span>
                 </li>
             </ul>
@@ -146,18 +192,23 @@
 
 
     
-
+<a href="https://forms.office.com/r/QqvVSK69ty?origin=lprLink" class="floating-btn" target="_blank">
+    <span class="btn-text">¡Manifiesta interes por tus futuros electivos!</span>
+</a>
     </main>
 
-    <footer class="main-footer">
-        <div class="footer-content">
-            <p>&copy; 2025 RedForU.</p>
-            <div class="social-links"> 
-                <a href="https://www.instagram.com/ceemat.usm.sj?igsh=MXhtcnM3N2gxOW4wMQ==" target="blank">Instagram</a> | 
-                <a href="pages/CEEMAT.html" target="blank">CEEMAT</a> 
-            </div>
+   <footer class="main-footer">
+    <div class="footer-content">
+        <p>&copy; RedForU - Comunidad ICMAT USM</p>
+        <div class="social-links"> 
+            <a href="https://www.instagram.com/ceemat.usm.sj?igsh=MXhtcnM3N2gxOW4wMQ==" target="_blank" class="footer-link">Instagram</a>
+            <span class="separator">|</span>
+            <a href="pages/Comunidad.html" target="_blank" class="footer-link">Comunidad</a> 
+            <span class="separator">|</span>
+            <a href="https://forms.office.com/r/C5VDcU7bqp?origin=lprLink" target="_blank" class="footer-link">Reporte Anónimo</a>
         </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -1,9 +1,13 @@
 /* Contenedor de la cuadrícula de ramos */
 .ramos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, min-minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column; /* Alinea las tarjetas una debajo de otra */
     gap: 25px;
     margin-top: 30px;
+    max-width: 800px;       /* Limita el ancho para que no ocupe toda la pantalla */
+    margin-left: auto;     /* Centra el bloque a la izquierda */
+    margin-right: auto;    /* Centra el bloque a la derecha */
+    width: 100%;           /* Permite que sea responsivo en móviles */
 }
 
 /* Tarjeta individual de ramo */
