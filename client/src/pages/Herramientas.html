@@ -3,14 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Líneas de Investigación | Red For U</title>
+    <title>Herramientas | Red For U</title>
     <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/acordion.css">
+    <link rel="stylesheet" href="../assets/contenedor.css">
     <link rel="stylesheet" href="../assets/calculadora.css">
+    
+    <style>
+        /* Contenedor general para dar aire a la sección */
+        .acordeon-container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Aplicación de SOMBRA y separación a los 3 ítems */
+        .acordeon-item {
+            margin-bottom: 25px; 
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #eee;
+            /* Sombra suave y profesional */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Efecto opcional: resalta un poco al pasar el mouse */
+        .acordeon-item:hover {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .acordeon-header {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            padding: 25px; 
+            cursor: pointer;
+            background-color: #fff;
+            position: relative;
+            transition: background 0.3s;
+        }
+
+        .acordeon-header:hover {
+            background-color: #fcfcfc;
+        }
+
+        .linea-nombre {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #9e0e1c;
+        }
+
+        .acordeon-icon {
+            position: absolute;
+            right: 30px;
+            font-size: 2rem;
+            color: #9e0e1c;
+        }
+
+        .acordeon-content {
+            padding: 40px 10%;
+            background-color: #fff;
+            border-top: 1px solid #f5f5f5;
+        }
+
+        .malla-foto-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .img-malla-grande {
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid #ddd;
+        }
+
+        /* Texto inferior centrado con medida controlada */
+        .section-VerMas.centrado {
+            text-align: center;
+            margin: 30px auto 10px auto;
+            font-size: 1.2rem;
+            max-width: 70%;
+            line-height: 1.6;
+        }
+
+        .notas-calculadora {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- HEADER / NAV -->
     <header class="main-header">
         <div class="logo">
             <h1>RedForU</h1>
@@ -18,71 +111,131 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-               
                 <li><a href="Herramientas.html">Herramientas</a></li>
                 <li><a href="lineas.html">Líneas de Investigación</a></li>
                 <li><a href="repositorios.html">Repositorios</a></li>
                 <li><a href="Sala.html">Sala Matemática</a></li>
                 <li><a href="Comunidad.html">Comunidad</a></li>
-                
                 <li class="cart-link"><a href="RedMat.html"> RedMat </a></li>
             </ul>
         </nav>
     </header>
 
-
-
-    
-<section class="hero-slider2">   
-    <div class="hero-slide active">
-        
-        <h2>Notas</h2>
-        
-        <p>Aquí podrás dejar registro de tus notas del semestre y disponer de una calculadora para facilitar la planificación académica durante el semestre.</p>
-    </div>
-</section> 
-
-
-
-<section class="notas-calculadora">
-    <p>   &nbsp;  </p>
-    <h2 class="section-subtitle-">Calculadora de Notas (0-100)</h2>
-    <p>   &nbsp;  </p>
-    
-    <p class="parrafo-centrado">Ingresa tus notas (0-100) y sus respectivos porcentajes para calcular tu promedio.</p>
-    <p>   &nbsp;  </p>
-    
-    <div class="contenedor-dinamico" id="contenedorNotas">
-        <div class="fila-nota">
-            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
-            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
-            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
-        </div>
-        <div class="fila-nota">
-            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
-            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
-            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
-        </div>
-        <div class="fila-nota">
-            <input type="number" class="input-nota" placeholder="Nota (0 - 100)" min="0" max="100" step="1">
-            <input type="number" class="input-porcentaje" placeholder="Porcentaje" min="0" max="100">
-            <button class="btn-eliminar" aria-label="Eliminar nota">-</button>
-        </div>
-    </div>
-
-    <div class="controles-accion">
-        <button id="btnLimpiar" class="btn-accion secondary">Limpiar</button>
-        <button id="btnAgregarNota" class="btn-agregar">+</button>
-    </div>
-
-    <div class="contenedor-resultados">
-        <h2>Promedio Actual</h2>
-        <div class="cajas-resultado">
-            <div>
-                <p>Promedio Ponderado</p>
-                <div class="valor-resultado" id="promedioActual">0</div>
+    <main>
+        <section class="hero-slider2">   
+            <div class="hero-slide active">
+                <h2>Herramientas</h2>
+                <p>Aquí podrás encontrar plantillas para el registro de tus notas del semestre, disponer de una calculadora para facilitar la planificación académica y acceder a la malla de la carrera.</p>
             </div>
+        </section> 
+
+        <section class="acordeon-container">
+            
+            <div class="acordeon-item">
+                <input type="checkbox" id="calc-tool" class="acordeon-toggle" hidden>
+                <label for="calc-tool" class="acordeon-header">
+                    <span class="linea-nombre">Calculadora </span>
+                    <span class="acordeon-icon">+</span>
+                </label>
+                <div class="acordeon-content">
+                    <p class="linea-descripcion" style="text-align: center;">Apóyate con esta calculadora para ver cómo va tu semestre.</p>
+                    <section class="notas-calculadora">
+                        <div class="contenedor-dinamico" id="contenedorNotas"></div>
+                        <div class="controles-accion">
+                            <button id="btnLimpiar" class="btn-accion secondary">Limpiar</button>
+                            <button id="btnAgregarNota" class="btn-agregar">+</button>
+                        </div>
+                        <div class="contenedor-resultados">
+                            <p>Promedio Final Estimado</p>
+                            <div class="valor-resultado" id="promedioActual">0</div>
+                        </div>
+                    </section>
+                </div>
             </div>
-    </div>
-</section>
-<script src="script.js"></script>
+
+            <div class="acordeon-item">
+                <input type="checkbox" id="malla-tool" class="acordeon-toggle" hidden>
+                <label for="malla-tool" class="acordeon-header">
+                    <span class="linea-nombre">Malla Interactiva </span>
+                    <span class="acordeon-icon">+</span>
+                </label>
+                <div class="acordeon-content">
+                    <p class="linea-descripcion" style="text-align: center;">Consulta prerrequisitos, créditos y planifica tus electivos.
+                        
+                    </p>
+                    <div class="malla-foto-container">
+                        Agradecimientos a Lucas Enriquez, quién desarrolló esta herramienta en su tiempo libre para beneficio de la comunidad.
+                    </div>
+                    <p class="section-VerMas centrado">
+                        <a href="https://alviniscrack.github.io/horario-usm/" target="_blank">Abrir Visualizador Interactivo</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="acordeon-item">
+                <input type="checkbox" id="excel-tool" class="acordeon-toggle" hidden>
+                <label for="excel-tool" class="acordeon-header">
+                    <span class="linea-nombre">Plantilla de Notas Excel</span>
+                    <span class="acordeon-icon">+</span>
+                </label>
+                <div class="acordeon-content">
+                    <p class="linea-descripcion" style="text-align: center;">Descarga el archivo oficial para el control histórico de tu avance.</p>
+                    <p class="section-VerMas centrado">
+                        <a href="../assets/Plantilla_Notas_RedForU.xlsx" download>Descargar Plantilla (.xlsx)</a>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        // ... (Mismo script de funcionalidad que tenías, no requiere cambios)
+        document.addEventListener('DOMContentLoaded', () => {
+            const contenedorNotas = document.getElementById('contenedorNotas');
+            const btnAgregarNota = document.getElementById('btnAgregarNota');
+            const btnLimpiar = document.getElementById('btnLimpiar');
+            const promedioActualDisplay = document.getElementById('promedioActual');
+
+            const crearFilaNota = () => {
+                const fila = document.createElement('div');
+                fila.classList.add('fila-nota');
+                fila.innerHTML = `
+                    <input type="number" class="input-nota" placeholder="Nota" min="0" max="100">
+                    <input type="number" class="input-porcentaje" placeholder="%" min="0" max="100">
+                    <button class="btn-eliminar">-</button>
+                `;
+                fila.addEventListener('input', calcular);
+                return fila;
+            };
+
+            function calcular() {
+                const filas = contenedorNotas.querySelectorAll('.fila-nota');
+                let suma = 0, sumP = 0;
+                filas.forEach(f => {
+                    const n = parseFloat(f.querySelector('.input-nota').value) || 0;
+                    const p = parseFloat(f.querySelector('.input-porcentaje').value) || 0;
+                    suma += (n * p); sumP += p;
+                });
+                let prom = sumP > 0 ? suma / sumP : 0;
+                promedioActualDisplay.textContent = Math.round(prom);
+                promedioActualDisplay.style.color = prom >= 55 ? '#004b81' : '#e63946';
+            }
+
+            btnAgregarNota.onclick = () => contenedorNotas.appendChild(crearFilaNota());
+            contenedorNotas.onclick = (e) => {
+                if(e.target.className === 'btn-eliminar') {
+                    e.target.parentElement.remove();
+                    calcular();
+                }
+            };
+            btnLimpiar.onclick = () => {
+                contenedorNotas.querySelectorAll('input').forEach(i => i.value = '');
+                calcular();
+            };
+
+            for(let i=0; i<3; i++) btnAgregarNota.click();
+        });
+    </script>
+</body>
+</html>

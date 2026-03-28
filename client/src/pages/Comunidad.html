@@ -3,225 +3,347 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEEMAT | Red For U</title>
+    <title>Comunidad ICMAT | Red For U</title>
     <link rel="stylesheet" href="../assets/styles.css">
     <link rel="stylesheet" href="../assets/contenedor.css">
     <link rel="stylesheet" href="../assets/ceemat.css">
- 
+    <style>
+        /* Estilos para Noticias con Imagen */
+        .news-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 2px solid #8b0000;
+        }
+
+        /* Deslizadores (Carruseles) */
+        .members-carousel-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 20px 10px;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .members-carousel-container::-webkit-scrollbar { height: 8px; }
+        .members-carousel-container::-webkit-scrollbar-thumb { background: #8b0000; border-radius: 10px; }
+        
+        .member-card { min-width: 240px; flex-shrink: 0; }
+
+        /* Mural y Varios */
+        .mural-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 20px; }
+        .post-it { 
+            background: #fff9c4; padding: 20px; width: 260px; min-height: 180px; 
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.1); transform: rotate(-1deg);
+            display: flex; flex-direction: column; justify-content: space-between;
+            border-left: 5px solid #fbc02d; color: #333;
+        }
+        .post-it:nth-child(even) { transform: rotate(1.5deg); background: #e3f2fd; border-left-color: #2196f3; }
+        .btn-ver-mas {
+            display: block; margin: 20px auto; padding: 10px 25px;
+            background: #333; color: white; border: none; border-radius: 20px;
+            cursor: pointer; transition: 0.3s;
+        }
+        .hidden-content { display: none; }
+        .tag-identidad { display: inline-block; padding: 4px 8px; background: #e8f5e9; color: #2e7d32; border-radius: 4px; font-size: 0.75rem; font-weight: bold; margin-bottom: 10px; }
+        /* Asegura que el contenedor tenga un tamaño fijo y oculte lo que sobra */
+.photo-container {
+    width: 150px;       /* Ajusta el tamaño que desees */
+    height: 150px;      /* Debe ser igual al ancho para un círculo perfecto */
+    margin: 0 auto;     /* Centra el contenedor en la tarjeta */
+    border-radius: 50%; /* Esto lo hace circular */
+    overflow: hidden;   /* Corta la imagen que exceda el círculo */
+    border: 3px solid #8b0000; /* Opcional: borde rojo institucional */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajusta la imagen dentro del contenedor */
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* MAGIA: Ajusta la foto sin deformarla */
+    object-position: center; /* Centra la cara de la persona */
+}
+/* Contenedor principal */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+/* La Tarjeta (Cuadro) */
+.news-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(139, 0, 0, 0.2); /* Sombra con toque rojo */
+}
+
+/* Contenedor de Imagen y Tag */
+.news-image-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.news-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tag-identidad {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #8b0000; /* Rojo USM */
+    color: white;
+    padding: 5px 12px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.tag-identidad.academic { background: #333; } /* Negro para académico */
+.tag-identidad.community { background: #b21f1f; }
+
+/* Contenido de texto */
+.news-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.news-date {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.news-content h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.news-content p {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.news-link {
+    margin-top: auto;
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+    </style>
 </head>
 
 <body>
 
-    <header class="main-header">
+     <header class="main-header">
         <div class="logo">
             <h1>RedForU</h1>
         </div>
         <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
+                
                 <li><a href="Herramientas.html">Herramientas</a></li>
+                
                 <li><a href="lineas.html">Líneas de Investigación</a></li>
                 <li><a href="repositorios.html">Repositorios</a></li>
+               
                 <li><a href="Sala.html">Sala Matemática</a></li>
                 <li><a href="Comunidad.html">Comunidad</a></li>
+                
                 <li class="cart-link"><a href="RedMat.html"> RedMat </a></li>
             </ul>
         </nav>
     </header>
 
 <main class="ceemat-container">
-    
-    <div class="main-title-container">
-        <h1>Centro de Estudiantes de Ingeniería Civil Matemática (CEEMAT)</h1>
+
+    <section class="contenedor-investigacion" style="margin-bottom: 40px;">
+        <h2 class="section-title">Nuestra Comunidad</h2>
+        <p class="linea-descripcion">
+Ser de ICMAT es entender que nadie se salva solo. Somos una comunidad de diversos orígenes, intereses y personalidades que valoran el conocimiento y la colaboración. Aquí, cada estudiante encuentra el espacio para desarrollarse académica y personalmente como prefiera, apoyado siempre por sus pares. Ligados fuertemente por la cercanía entre profesores y alumnos, buscamos un ambiente donde todos puedan alcanzar su máximo potencial
+        </p>
+    </section>
+
+    <section class="mural-seccion">
+        <div class="sub-group-title">Mural de Consejos</div>
+        <div class="mural-container" id="mural">
+            <div class="post-it"><p>"La Sala Matemática es tu segundo hogar. No estudies solo."</p><cite>— Gen 2021</cite></div>
+            <div class="post-it"><p>"Pide ayuda a tus ayudantes, el roce con los profes es clave."</p><cite>— Estudiante 4to</cite></div>
+            <div class="post-it"><p>"Ve al DMAT, siempre habrá alguien con la disposición de ayudarte."</p><cite>— Consejo Técnico</cite></div>
+            <div class="post-it hidden-content"><p>"Participa en los eventos del DMAT para crear una red de apoyo."</p><cite>— Comunidad</cite></div>
+            <div class="post-it hidden-content"><p>"Crea un grupo de estudio sólido, es vital."</p><cite>— Comunidad</cite></div>
+        </div>
+        <button class="btn-ver-mas" onclick="toggleContent('mural', this)">Ver más consejos</button>
+    </section>
+
+    <hr class="separator-line">
+
+   <section class="news-section">
+    <div class="sub-group-title">Noticias y Actualidad</div>
+    <div class="news-grid" id="noticias">
+        
+        <article class="news-card">
+            <div class="news-image-container">
+                <img src="../data/images/integraton.jpg" alt="Integratón">
+                <span class="tag-identidad">EVENTO</span>
+            </div>
+            <div class="news-content">
+                <p class="news-date">24 Ene, 2026</p>
+                <h3>¡Bienvenida Gen 2026!</h3>
+                <p>Estamos afinando los últimos detalles para la Bienvenida. Los esperamos gen 2026!!!!.</p>
+                <a href="#" class="news-link">Leer más →</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image-container">
+                <img src="../data/images/investigacion.jpg" alt="Investigación">
+                <span class="tag-identidad academic">ACADÉMICO</span>
+            </div>
+            <div class="news-content">
+                <p class="news-date">2 Mar, 2026</p>
+                <h3>Sala Matemática</h3>
+                <p>Ven a ver la nueva Sala Matemática dedicada para tesistas y magisters (Por ahora).</p>
+                <a href="#" class="news-link">Leer más →</a>
+            </div>
+        </article>
+
+        <article class="news-card hidden-content">
+            <div class="news-image-container">
+                <img src="../data/images/sala.jpg" alt="Sala">
+                <span class="tag-identidad community">EVENTO</span>
+            </div>
+            <div class="news-content">
+                <p class="news-date">15 Ene, 2026</p>
+                <h3>Día de Pi</h3>
+                <p>Este 14 de Marzo estaremos celebrando el Día de Pi con actividades especiales. ¡Ven y participa!.</p>
+                <a href="#" class="news-link">Leer más →</a>
+            </div>
+        </article>
+
     </div>
-    
+    <button class="btn-ver-mas" onclick="toggleContent('noticias', this)">Ver todas las noticias</button>
+</section>
+
+    <hr class="separator-line">
+
+    <div class="sub-group-title">Mesa Directiva y Equipo 2026 </div>
     <div class="description-text">
-        <p>Como CEEMAT 2026 buscamos cultivar una comunidad participativa, unida y con sentido de pertenencia. Nuestro objetivo es generar espacios de encuentro a través de diversas actividades que fortalezcan las relaciones humanas y académicas entre todos los estudiantes de la carrera.</p>
+        <p>Buscamos cultivar una comunidad participativa, unida y con sentido de pertenencia.</p>
     </div>
-    
-    <div class="sub-group-title">Mesa Directiva 2026</div>
-    <div class="members-grid">
-        <div class="member-card">
-            <div class="photo-container">
-                <img src="URL_FOTO_EMILIA_R" alt="Emilia Rojas">
-            </div>
-            <div class="member-name">Emilia Rojas</div>
-            <div class="member-role">Presidenta</div>
-            <a href="mailto:erojasa@usm.cl" class="member-email">erojasa@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
+    <div class="members-carousel-container">
+       <div class="member-card">
+    <div class="photo-container"><img src="../data/images/emi.jpg" alt="Emilia Rojas"></div>
+    <div class="member-name">Emilia Rojas</div>
+    <div class="member-role">Presidenta</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container">
-                <img src="URL_FOTO_LUCAS_S" alt="Lucas Siclari">
-            </div>
-            <div class="member-name">Lucas Siclari</div>
-            <div class="member-role">Vicepresidente</div>
-            <a href="mailto:lsiclari@usm.cl" class="member-email">lsiclari@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/lucas.jpg" alt="Lucas Siclari"></div>
+    <div class="member-name">Lucas Siclari</div>
+    <div class="member-role">Vicepresidente</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container">
-                <img src="URL_FOTO_EMILIA_P" alt="Emilia Pardo">
-            </div>
-            <div class="member-name">Emilia Pardo</div>
-            <div class="member-role">Secretaria General</div>
-            <a href="mailto:emilia.pardo@usm.cl" class="member-email">emilia.pardo@usm.cl</a>
-            <div class="member-extra">Generación: 2021
-            </div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/emilia_pardo.jpg" alt="Emilia Pardo"></div>
+    <div class="member-name">Emilia Pardo</div>
+    <div class="member-role">Secretaria General</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container">
-                <img src="URL_FOTO_ARANTZA_O" alt="Arantza Ormeño">
-            </div>
-            <div class="member-name">Arantza Ormeño</div>
-            <div class="member-role">Secretaria de Finanzas</div>
-            <a href="mailto:arantza.ormeno@usm.cl" class="member-email">arantza.ormeno@usm.cl</a>
-            <div class="member-extra">Generación: 2021</div>
-        </div>
-    </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/ari.jpg" alt="Arantza Ormeño"></div>
+    <div class="member-name">Arantza Ormeño</div>
+    <div class="member-role">Secretaria de Finanzas</div>
+</div>
 
-    <div class="sub-group-title">Delegaciones 2026</div>
-    <div class="members-grid">
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Amparo Silva</div>
-            <div class="member-role">Bienestar</div>
-            <a href="mailto:asilvap@usm.cl" class="member-email">asilvap@usm.cl</a>
-            <div class="member-extra">Generación: 2024</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/juan.jpg" alt="Juan Bustos"></div>
+    <div class="member-name">Juan Bustos</div>
+    <div class="member-role">Delegado Académico</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Andres Angel</div>
-            <div class="member-role">Difusión</div>
-            <a href="mailto:raul.herbas@usm.cl" class="member-email">raul.herbas@usm.cl</a>
-            <div class="member-extra">Generación: 2021</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/amparo.jpg" alt="Amparo Silva"></div>
+    <div class="member-name">Amparo Silva</div>
+    <div class="member-role">Delegada de Bienestar</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Juan Bustos</div>
-            <div class="member-role">Académico</div>
-            <a href="mailto:juan.bustoso@usm.cl" class="member-email">juan.bustoso@usm.cl</a>
-            <div class="member-extra">Generación: 2022</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/sophia.jpg" alt="Sophia Carrión"></div>
+    <div class="member-name">Sophia Carrión</div>
+    <div class="member-role">Género e Inclusión</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Sophia Carrion</div>
-            <div class="member-role">Género e Inclusión</div>
-            <a href="mailto:scarrion@usm.cl" class="member-email">scarrion@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/alonso.jpg" alt="Alonso Urrea"></div>
+    <div class="member-name">Alonso Urrea</div>
+    <div class="member-role">Relacionador Estudiantil</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Alonso Urrea</div>
-            <div class="member-role">Relacionador Estudiantil</div>
-            <a href="mailto:scarrion@usm.cl" class="member-email">martin.urrea@usm.cl</a>
-            <div class="member-extra">Generación: 2020</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/alvaro.jpg" alt="Álvaro Cozzi"></div>
+    <div class="member-name">Álvaro Cozzi</div>
+    <div class="member-role">Relaciones Externas</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Álvaro Cozzi</div>
-            <div class="member-role">Relaciones externas</div>
-            <a href="mailto:scarrion@usm.cl" class="member-email">acozzi@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/andres.jpg" alt="Andrés Angel"></div>
+    <div class="member-name">Andrés Angel</div>
+    <div class="member-role">Delegado de Difusión</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Matías Baeza</div>
-            <div class="member-role">Entretenimiento y Actividades extracurriculares</div>
-            <a href="mailto:scarrion@usm.cl" class="member-email">mbaezav@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/matias_baeza.jpeg" alt="Matías Baeza"></div>
+    <div class="member-name">Matías Baeza</div>
+    <div class="member-role">Entretenimiento</div>
+</div>
 
-        <div class="member-card">
-            <div class="photo-container"><img src="URL_FOTO"></div>
-            <div class="member-name">Marcelo Cabrera</div>
-            <div class="member-role">Fotográfo</div>
-            <a href="mailto:scarrion@usm.cl" class="member-email">mcabrera@usm.cl</a>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
-
+<div class="member-card">
+    <div class="photo-container"><img src="../data/images/marcelo_cabrera.jpg" alt="Marcelo Cabrera"></div>
+    <div class="member-name">Marcelo Cabrera</div>
+    <div class="member-role">Fotógrafo</div>
+</div>
     </div>
 
-    <div class="sub-group-title">Mesa Directiva 2025</div>
-    <div class="members-grid">
-        <div class="member-card">
-            <div class="member-name">María Núñez</div>
-            <div class="member-role">Presidenta</div>
-            <div class="member-extra">Generación: 2021</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Joaquín Ramírez</div>
-            <div class="member-role">Vicepresidente</div>
-            <div class="member-extra">Generación: 2023</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Alonso Urrea</div>
-            <div class="member-role">Tesorero</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Wolfgang Breytmann</div>
-            <div class="member-role">Secretario</div>
-        </div>
-    </div>
-
-    <div class="sub-group-title">Delegaciones 2025</div>
-    <div class="members-grid">
-        <div class="member-card">
-            <div class="member-name">Andrés Angel</div>
-            <div class="member-role">Entretenimiento y Actividades Extracurriculares</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Valentina Vergara</div>
-            <div class="member-role">Género</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Matilda Muñoz</div>
-            <div class="member-role">Relacionadora Estudiantil</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Martina Blanco</div>
-            <div class="member-role">Relacionadora Académica</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Sebastián Rigot</div>
-            <div class="member-role">Delegado de Deportes</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Juan Bustos</div>
-            <div class="member-role">Encargado Académico</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Tomás Rojas</div>
-            <div class="member-role">Encargado de Difusión</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Nicolás Rodríguez</div>
-            <div class="member-role">Delegado de Funciones Administrativas</div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-name">Claudio González</div>
-            <div class="member-role">Fotógrafo</div>
-        </div>
+    <div class="sub-group-title" style="margin-top: 60px;">Mesa Directiva y Equipo 2025</div>
+    <div class="members-carousel-container">
+        <div class="member-card"><div class="member-name">María Núñez</div><div class="member-role">Presidenta</div></div>
+        <div class="member-card"><div class="member-name">Joaquín Ramírez</div><div class="member-role">Vicepresidente</div></div>
+        <div class="member-card"><div class="member-name">Alonso Urrea</div><div class="member-role">Tesorero</div></div>
+        <div class="member-card"><div class="member-name">Wolfgang Breytmann</div><div class="member-role">Secretario</div></div>
+        <div class="member-card"><div class="member-name">Valentina Vergara</div><div class="member-role">Género</div></div>
+        <div class="member-card"><div class="member-name">Matilda Muñoz</div><div class="member-role">Relac. Estudiantil</div></div>
+        <div class="member-card"><div class="member-name">Sebastián Rigot</div><div class="member-role">Deportes</div></div>
+        <div class="member-card"><div class="member-name">Claudio González</div><div class="member-role">Fotógrafo</div></div>
     </div>
 
     <div class="section-VerMas">
@@ -229,17 +351,35 @@
     </div>
 
 </main>
+
 <footer class="main-footer">
     <div class="footer-content">
-        <p>&copy; RedForU - Comunidad ICMAT USM</p>
+        <p>&copy; 2026 RedForU - Comunidad ICMAT USM</p>
         <div class="social-links"> 
-            <a href="https://www.instagram.com/ceemat.usm.sj?igsh=MXhtcnM3N2gxOW4wMQ==" target="_blank" class="footer-link">Instagram</a>
-            <span class="separator">|</span>
-            <a href="pages/Comunidad.html" target="_blank" class="footer-link">Comunidad</a> 
-            <span class="separator">|</span>
-            <a href="https://forms.office.com/r/C5VDcU7bqp?origin=lprLink" target="_blank" class="footer-link">Reporte Anónimo</a>
+            <a href="https://www.instagram.com/ceemat.usm.sj" target="_blank">Instagram</a> | 
+            <a href="https://forms.office.com/r/C5VDcU7bqp" target="_blank">Reporte Anónimo</a>
         </div>
     </div>
 </footer>
+
+<script>
+    function toggleContent(containerId, btn) {
+        const container = document.getElementById(containerId);
+        const hiddenItems = container.querySelectorAll('.hidden-content');
+        let isShowing = false;
+        
+        hiddenItems.forEach(item => {
+            if (item.style.display === 'block') {
+                item.style.display = 'none';
+            } else {
+                item.style.display = 'block';
+                isShowing = true;
+            }
+        });
+        
+        btn.innerText = isShowing ? 'Ver menos' : (containerId === 'mural' ? 'Ver más consejos' : 'Ver más noticias');
+    }
+</script>
+
 </body>
 </html>
